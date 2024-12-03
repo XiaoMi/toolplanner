@@ -62,9 +62,12 @@ trl==0.7.3.dev0
 download these data and unzip them.
 |path|data description|data name|url|
 |----|-----|-----|-----|
+|[/data/category/answer]|MGToolBench: sft training dataset|G3_plan_gen_train_1020_G3_3tag_whole_prefixTagTraceAll.json|https://huggingface.co/datasets/wuqinzhuo/ToolPlanner|
 |[/data/category/dataset]|MGToolBench: pairwise_responses|G3_1107_gensample_Reward_pair.json|https://huggingface.co/datasets/wuqinzhuo/ToolPlanner|
 |[/data/category/toolenv]|Tool Environment: Tools, APIs, and their documentation.|toolenv.zip|https://huggingface.co/datasets/wuqinzhuo/ToolPlanner|
 |[/data/category/inference]|Output: solution trees path|inference.zip|https://huggingface.co/datasets/wuqinzhuo/ToolPlanner|
+|[/data/retrieval/G3_clear]|Training dataset for Retrivel model|train.json|https://huggingface.co/datasets/wuqinzhuo/ToolPlanner|
+|[/data/retrieval/G3_clear]|Training dataset for Retrivel mode|corpus.tsv|https://huggingface.co/datasets/wuqinzhuo/ToolPlanner|
 
 
 |path|model description|model name|url|
