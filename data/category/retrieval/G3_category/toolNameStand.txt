@@ -1,0 +1,36 @@
+Food	the_cocktail_db, edamam_nutrition_analysis, yummly, tasty, recipe_search_and_diet.
+Data	weather, currency_exchange, web_search, geodb_cities, messages, open_brewery_db, socialgrep, diablo4_smartable, dicolink, solcast, world_bank_gdp, opencage_geocoder, local_business_data, wikihow, car_data, tardis_dev, jsearch, holy_bible, zippopotam_us, social_links_search, real_time_web_search, cat_facts, diffbot, proxy_spider_proxies, scraper_s_proxy, barcode_lookup, website_contacts_scraper, corona_virus_world_and_india_data, personator, dns_lookup, ip_geolocation_ipwhois_io, simple_salvage_vin_check, kvstore, global_address.
+Finance	coinranking, bravenewcoin, morning_star, global_ethereum_price_index_gex, investors_exchange_iex_trading, twelve_data, trading_view, chaingateway_io, coinmill_currency, fidelity_investments, bb_finance, mineable_coins, stock_and_options_trading_data_provider, corporate_supply_chain, investing_cryptocurrency_markets, alpaca_trading, currency_conversion_and_exchange_rates, free_currency_converter_by_hajana_one, coinbase, quandl, direct_debit_managed_service.
+Sports	free_nba, live_sports_odds, football_prediction, horse_racing, fitness_calculator.
+Movies	streaming_availability, ott_details.
+Entertainment	deezer, songmeanings, reddit_meme, world_of_jokes, jokes_by_api_ninjas, chart_lyrics, coin_flip, love_calculator, programming_memes_images, humor_jokes_and_memes, programming_memes_reddit, memeados, daddyjokes, hearthstone, watchmode, tvmaze, youtube_to_mp4, minecraft_forge_optifine, tunein, dota_2_steam_web, twitter_video_downloader_mp4.
+Gaming	trivia_by_api_ninjas, world_of_tanks_stats, cheapshark_game_deals, raider_io.
+Mapping	maptiles, trueway_places, trueway_geocoding, reverse_geocoding_and_geolocation_service, places, uk_boundaries_io, maptoolkit, navitime_maps, forward_reverse_geocoding, mexico_zip_codes, ca_boundaries_io, walk_score.
+Financial	currencyapi_net, cryptocurrency_balance, quantaex_market_data.
+Database	data_axle_consumer_search, dns_lookup, car_code, whois_v2, domain_reputation.
+Location	spott, address_correction_and_geocoding, geocoder_united_states_census_bureau, navitime_geocoding, referential, ip_address_geolocation, ip_address_tracker_free, stadia_maps_time_zone_api.
+Events	working_days, public_holiday.
+Other	evaluate_expression, whois, darko_androcec_example.
+Social	chuck_norris, soundcloud, reddit, check_username, tronald_dump, whatsapp_scraper, social_media_data_tt, instagram_data.
+Media	bing_image_search, music_trivia, vimeo, giphy, placekitten.
+Education	numbers, quotes, numbers_translator, uncovered_treasure, learn_to_read_and_write_japanese_kanji, helioviewer_v1, random_word, old_english_translator.
+Business	mymemory_translation_memory, lake_b2b, healthcaremailing, 360_business_tool, proxy_detection, rotating_proxies, free_cashback, indeed, realty_in_us.
+Communication	maytapi_whatsapp, line_messaging, pubnub_network, 31events_send_native_calendar_invites, quick_email_verification, languagetool, mojitok_sticker_store_sdk, veriphone, whin.
+Tools	famous_quotes, mailboxlayer, ephemeral_proxies, shakespeare_translator, proxypage, bulk_whois, ytstream_download_youtube_videos, bulk_whatsapp_validator, viewdns, bitly, domain_checker.
+eCommerce	gearbest, real_time_product_search, hm_hennes_mauritz, magic_aliexpress, target_com_store_product_reviews_locations_data, asos, forever21.
+Commerce	etsy, aliexpress_unofficial, 27coupons, apfelpreise, direct_wines, free_coupon_codes, flance_aliexpress, ip2proxy.
+Music	shazam, billboard_api, spotify, view_song, youtube_mp3_converter.
+Search	bing_web_search, bing_entity_search, superhero_search, bing_autosuggest, barcode_monster.
+Logistics	kargom_nerede, air_cargo_co2_track_and_trace.
+Travel	webcams_travel, priceline_com_provider, hotels, booking, flightera_flight_data, british_airways_flight_info, travel_api_s.
+Weather	national_weather_service, air_quality, visual_crossing_weather, weatherapi_com, weather_forecast_14_days, climate_data, plant_hardiness_zone, ai_weather_by_meteosource, history, forecast, ambee_air_quality.
+Science	manatee_jokes, carbonfootprint, daily_atmosphere_carbon_dioxide_concentration.
+Translation	microsoft_translator_text, simple_elegant_translation_service, deep_translate.
+Email	blaze_verify, mailcheap.
+Advertising	coupons, url_link_shortener.
+Transportation	adsbx_flight_sim_traffic, car_api, timetable_lookup.
+Medical	getguidelines, endlessmedicalapi, 23andme.
+SMS	smsapi_com, sms77io.
+Devices	geolocation_simulation_for_mobile_apps.
+Storage	aniku.
+Reward	kitten_placeholder.

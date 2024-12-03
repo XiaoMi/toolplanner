@@ -1,0 +1,36 @@
+Food	The Cocktail DB, Edamam Nutrition Analysis, Yummly, Tasty, Recipe Search and Diet.
+Data	Weather, Currency Exchange, Web Search, GeoDB Cities, Messages, Open Brewery DB, Socialgrep, Diablo4 Smartable, Dicolink, Solcast, World Bank | GDP, Opencage geocoder, Local Business Data, WikiHow, Car Data, Tardis.dev, JSearch, Holy Bible, Zippopotam.us, Social Links Search, Real-Time Web Search, Cat Facts, Diffbot, Proxy-Spider Proxies, Scraper's Proxy, Barcode Lookup, Website Contacts Scraper, Corona virus World and India data, Personator, DNS Lookup, IP Geolocation - IPWHOIS.io, Simple Salvage Vin Check, KVStore, Global Address.
+Finance	Coinranking, BraveNewCoin, Morning Star, Global Ethereum Price Index - GEX, Investors Exchange (IEX) Trading, Twelve Data, Trading View, Chaingateway.io, Coinmill Currency, Fidelity Investments, BB Finance, Mineable coins, Stock and Options Trading Data Provider, Corporate Supply Chain, Investing - Cryptocurrency Markets, Alpaca Trading, Currency Conversion and Exchange Rates, Free Currency Converter by Hajana One, Coinbase, Quandl, Direct Debit Managed Service.
+Sports	Free NBA, Live Sports Odds, Football Prediction, Horse Racing, Fitness Calculator.
+Movies	Streaming Availability, OTT details.
+Entertainment	Deezer, SongMeanings, Reddit meme, World of Jokes, Jokes by API-Ninjas, Chart Lyrics, Coin Flip, Love Calculator, Programming Memes Images, Humor-Jokes-and-Memes, Programming Memes Reddit, Memeados, DaddyJokes, Hearthstone, Watchmode, TVMaze, YouTube to Mp4, Minecraft-Forge-Optifine, TuneIn, DOTA 2 Steam Web, Twitter video downloader mp4.
+Gaming	Trivia by API-Ninjas, World of Tanks Stats, CheapShark - Game Deals, Raider.IO.
+Mapping	MapTiles, TrueWay Places, TrueWay Geocoding, Reverse Geocoding and Geolocation Service, Places, uk.boundaries.io, MapToolkit, NAVITIME Maps, Forward & Reverse Geocoding, Mexico ZIP Codes, ca.boundaries.io, Walk Score.
+Financial	CurrencyAPI.net, Cryptocurrency balance, QuantaEx Market Data.
+Database	Data Axle Consumer Search, DNS Lookup, car code, WHOIS v2, Domain Reputation.
+Location	Spott, Address Correction and Geocoding, Geocoder - United States Census Bureau, NAVITIME Geocoding, Referential, IP Address Geolocation, IP Address Tracker - Free, Stadia Maps Time Zone API.
+Events	Working days, Public Holiday.
+Other	Evaluate expression, whois, Darko Androcec Example.
+Social	Chuck Norris, Soundcloud, Reddit, Check Username, Tronald Dump, Whatsapp Scraper, Social Media Data TT, Instagram Data.
+Media	Bing Image Search, Music Trivia, Vimeo, Giphy, placekitten.
+Education	Numbers, Quotes, Numbers Translator, Uncovered Treasure, Learn to read and write Japanese kanji, Helioviewer v1, Random Word, Old English Translator.
+Business	MyMemory - Translation Memory, Lake B2B, Healthcaremailing, 360 Business Tool, Proxy Detection, Rotating Proxies, Free Cashback, Indeed, Realty in US.
+Communication	Maytapi WhatsApp, LINE Messaging, PubNub Network, 31Events - Send Native Calendar Invites, Quick Email Verification, LanguageTool, Mojitok Sticker Store SDK, Veriphone, whin.
+Tools	Famous  Quotes, mailboxlayer, Ephemeral Proxies, Shakespeare Translator, ProxyPage, Bulk WHOIS, YTStream - Download YouTube Videos, Bulk Whatsapp Validator, ViewDNS, bitly, Domain Checker.
+eCommerce	Gearbest, Real-Time Product Search, HM - Hennes Mauritz, Magic AliExpress, Target.Com(Store) Product/Reviews/Locations Data, Asos, Forever21.
+Commerce	Etsy, AliExpress unofficial, 27coupons, Apfelpreise, Direct Wines, Free Coupon Codes, Flance AliExpress, IP2Proxy.
+Music	Shazam, Billboard-API, Spotify, View Song, Youtube MP3 Converter.
+Search	Bing Web Search, Bing Entity Search, SuperHero Search, Bing Autosuggest, barcode.monster.
+Logistics	Kargom Nerede, Air Cargo CO2 Track And Trace.
+Travel	webcams.travel, Priceline com Provider, Hotels, Booking, Flightera Flight Data, British Airways Flight Info, Travel API's.
+Weather	National Weather Service, Air Quality, Visual Crossing Weather, WeatherAPI.com, weather forecast 14 days, climate data, Plant Hardiness Zone, AI Weather by Meteosource, History, Forecast, Ambee Air Quality.
+Science	manatee jokes, CarbonFootprint, Daily atmosphere  carbon dioxide concentration.
+Translation	Microsoft Translator Text, Simple & Elegant Translation Service, Deep Translate.
+Email	Blaze Verify, Mailcheap.
+Advertising	coupons, URL Link Shortener.
+Transportation	ADSBx Flight Sim Traffic, Car API, TimeTable Lookup .
+Medical	GetGuidelines, EndlessMedicalAPI, 23andMe.
+SMS	SMSAPI.com, sms77io.
+Devices	Geolocation Simulation For Mobile Apps.
+Storage	Aniku.
+Reward	Kitten Placeholder.

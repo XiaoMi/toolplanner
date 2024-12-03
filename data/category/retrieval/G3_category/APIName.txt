@@ -1,0 +1,240 @@
+The Cocktail DB	List of Cocktails, Detailed Cocktail Recipe by ID.
+Web Search	newsSearch, webSearch, imageSearch, autoComplete, spellCheck.
+Investors Exchange (IEX) Trading	OHLC, Effective Spread, IEX Short Interest List, Time Series, IEX Regulation SHO Threshold Securities List, Book.
+Live Sports Odds	/v4/sports/{sport}/odds, /v4/sports/{sport}/scores, /v4/sports.
+Streaming Availability	Search Basic (FREE), Search Pro, Search Ultra, Search By Title (FREE), Get Basic (FREE), Genres (FREE), Get Ultra, Services (FREE).
+TVMaze	/search/people?q={query}, /search/shows?q={query}, /shows/{id}, /schedule, /people/{id}.
+Diablo4 Smartable	GetNews, GetGamesByTopic, GetGames, GetCommunities, GetTopics, GetSponsorships, GetNewsletters, GetPeople.
+DOTA 2 Steam Web	Match History, Match Details.
+Raider.IO	RaiderIO_Call.
+BB Finance	stories/detail, market/get-price-chart, stories/list, market/get-movers, market/get-compact, news/list, news/list-by-region, market/auto-complete, stock/get-financials, market/get-chart, stock/get-statistics, market/get-full, market/get-cross-currencies.
+World Bank | GDP	List of countries with income level, List all countries.
+Twelve Data	Market Movers - Forex, Risk, CEIL, Quote, Statistics, Balance Sheet, Earnings, ROCR, LINEARREGSLOPE, Recommendations, STOCHRSI, Options Chain, T3MA, MEDPRICE, WCLPRICE, MININDEX, Analyst Ratings - US Equities, Insider Transactions, MIDPOINT, CCI, TRIMA, MINMAX, SUB, HT_DCPERIOD, EPS Trend, Logo, Forex Pairs List, Earnings Calendar, Composition, DEMA, SMA, MAMA, MFs Family List, ROCR100, MINUS_DI, Sustainability, BETA, COPPOCK, SQRT, IPO Calendar, EMA, AVGPRICE, AROON, Dividends, Market Movers, LINEARREGINTERCEPT, MOM, SUPERTREND, Market Movers - ETFs, Stocks List, MIN, AROONOSC, Exchange Rate, STOCH, ROCP, OBV, HT_SINE, MA, Price Target, STOCHF, WILLR, ICHIMOKU, EPS Revisions, HT_TRENDMODE, Profile, APO, ADX, Revenue Estimate, ULTOSC, Ratings, MAXINDEX, Market Movers - Stocks, All data, Currency Conversion, MFs List, LN.
+GeoDB Cities	City Details, City Date-Time, Place Details, Places Near Place, Places Near Location, Time-Zone, Place Distance, City Time, City Distance, Place Time, Place Date-Time, Country Details, Cities Near Location, Country Places, Countries, Country Region Cities, Admin Division Details, Cities Near City, Cities Near Division, Cities, Places, Place Located In, Languages, City Located In, Admin Divisions Near Division, Time-Zone Date-Time, Currencies, Admin Divisions, Admin Divisions Near Location, Time-Zone Time, Country Regions, Country Region Details, Country Region Divisions, Country Region Places, Time-Zones, Locales.
+Reverse Geocoding and Geolocation Service	GetTimezone, GetNearestCities, GetLargestCities.
+Stock and Options Trading Data Provider	Options, Straddle.
+QuantaEx Market Data	24 Hours Tickers.
+Morning Star	{type}/portfolio/get-maturity-schedule, market/get-articles, stock/v2/get-key-stats, market/get-summary, stock/v3/get-profile, {type}/performance/get-annual-distributions, stock/v2/key-stats/get-operating-efficiency, stock/v2/get-short-interest, stock/v2/get-ownership, {type}/price/get-fee-level, market/get-commentaries, {type}/people/get-proxy-voting-management, {type}/risk/get-risk-return-summary, {type}/parent/get-highest-rated-investments, stock/v2/get-risk-rating-breakdown, stock/v2/get-realtime-data, {type}/get-quote, market/v2/get-returns, {type}/portfolio/get-exposure, news/list, stock/v2/get-risk-rating-assessment, stock/v2/get-valuation, stock/v2/key-stats/get-overview, stock/v2/get-security-info, stock/v2/get-analysis-report, {type}/people/get-summary, {type}/performance/get-trailing-returns, stock/v2/key-stats/get-financial-health, {type}/analysis/get-comparables, {type}/parent/get-top-medalist-rated-investments, market/get-videos, {type}/portfolio/get-fixed-income-exposure-analysis, stock/get-histories, {type}/risk/get-risk-return-analysis, stock/v2/get-operating-performance, {type}/parent/get-medalist-rating, stock/v2/get-analysis-data, {type}/portfolio/get-coupon-range, stock/v2/get-price-fair-value, {type}/sustainability/get-product-involvement, articles/get-details, stock/v2/get-executive, {type}/get-strategy, stock/v2/get-financial-details, news/get-details, market/get-global-indices, stock/v2/get-trading-information, {type}/get-disclosure-flag, stock/v2/get-profile, {type}/sustainability/get-esg-risk, {type}/get-realtime-data, {type}/analysis/get-archived, {type}/parent/get-recent-investment-rating-change, stock/v2/key-stats/get-growth-table, market/v2/auto-complete, {type}/parent/get-lowest-rated-investments, market/v2/get-movers, {type}/portfolio/get-holdings, {type}/performance/get-latest-distributions, {type}/portfolio/get-current-fixed-income-style, market/get-movers(Deprecated), {type}/risk/get-risk-volatility-measures, {type}/parent/get-summary, {type}/price/get-other-fees, market/v2/get-realtime-data, {type}/get-mini-chart-realtime-data, stock/v2/get-news, stock/v2/get-mini-chart-realtime-data, {type}/portfolio/get-asset-allocation, {type}/people/get-proxy-voting-shareholder, {type}/price/get-cost-illustration, {type}/risk/get-market-volatility-measures, stock/v2/get-competitors, {type}/portfolio/get-credit-quality.
+Data Axle Consumer Search	Consumer Name Search.
+Address Correction and Geocoding	/address.
+Working days	/1.3/analyse, /1.3/get_info_day, /1.3/add_working_hours, /1.3/list_non_working_days, /1.3/define_custom_period, /1.3/add_working_days, /1.3/delete_custom_period.
+Evaluate expression	Evaluate expression.
+Trivia by API-Ninjas	/v1/trivia.
+Chuck Norris	/jokes/random, /jokes/search, /jokes/categories.
+Music Trivia	/getgamelevel.
+Numbers	Get random fact, Get trivia fact, Get math fact, Get date fact, Get year fact.
+MyMemory - Translation Memory	search translations, set contribution, create key.
+LanguageTool	List of Languages.
+DNS Lookup	/whoisserver/DNSService, Nslookup, Reverse.
+ViewDNS	Free Email Lookup, DNS Record Lookup, Traceroute, Iran Firewall Test, Spam Database Lookup, Reverse DNS Lookup, Whois, MAC Address Lookup, Chinese Firewall Test, Ping, DNS Propagation Checker.
+Instagram Data	Post Comments, Hashtag Info, Hashtag Search, User Tagged Feed, User Reels Feed, User information(metadata) by User ID, Post comments V2.
+Target.Com(Store) Product/Reviews/Locations Data	Product Search, Product Reviews, Target Store Location Search, Product Details.
+Social Media Data TT	Hashtag feed (Video posts), User feed (Video posts), User metadata (information), Hashtag metadata (information) V2, Trending feed (Video posts), User followings list, Music metadata, User feed (Video posts) V2, Video post comments V2, Video post metadata V2, Video post comments.
+HM - Hennes Mauritz	categories/list, products/detail, products/list, regions/list, products/search-by-barcode.
+Etsy	getInterestingListings, getTrendingListings, findAllListingActive, findAllCurrentFeaturedListings.
+Billboard-API	HOT TRENDING SONGS POWERED BY TWITTER, Top Artists, Hot 100 Artists, Top Dance Club Artists, Hot 100 Songs (Greatest of All Time), Top Artists - Male, BILLBOARD 200, Adult Pop Songs, Australia Songs, Hot 100 Songs by Women, Finland Songs, Hot 100 Songs, Top Artists - Duo/Group, Adult Pop Songs Artists, Top R&B/Hip-Hop Artists, Billboard 200 Albums by Women, Pop Songs Artists, Top Labels, Mainstream Rock Artists, Hungary Songs, Slovakia Songs, Singapore Songs, Greece Songs, Billboard 200 Albums, Ecuador Songs, Sweden Songs, Billboard 200 Artists, Pop Songs, Austria Songs, Billboard Global 200 (YEAR-END), Top Country Artists, Peru Songs, Malaysia Songs, Top R&B/Hip-Hop Albums, HOT 100, Songs of the Summer, Luxembourg Songs, Hot Latin Songs, Bolivia Songs, Hot Country Songs, New Zealand Songs, U.K. Songs, India Songs, Adult Alternative Songs, BILLBOARD U.S. AFROBEATS SONGS, Alternative Songs, Taiwan Songs, South Korea Songs, Top Artists - Female, Songs of the '90s, Indonesia Songs, Hot 100 Women Artists, Brazil Songs, Switzerland Songs, Adult Alternative Artists, Turkey Songs, Hot R&B/Hip-Hop Songs, Portugal Songs, Holiday 100 Songs, Top Country Albums, Chile Songs, France Songs, Mainstream Rock Songs, Romania Songs, Alternative Artists, Artists, Billboard 200 Albums (Greatest of All Time), South Africa Songs, Iceland Songs, Top New Artists, Belgium Songs, Top Holiday Albums, ARTIST 100, Songs of the '80s, Ireland Songs, Spain Songs, Mexico Songs, Philippines Songs, Germany Songs, Norway Songs, Colombia Songs, BILLBOARD GLOBAL 200, Croatia Songs, Hong Kong Songs, Hot Latin Songs Artists, Poland Songs, BILLBOARD JAPAN HOT 100, Netherlands Songs, Denmark Songs, Latin Artists, Czech Republic Songs.
+Deezer	Playlist, * Search, Track, Artist, Genre, Album, Editorial, Radio, Infos, Comment.
+Soundcloud	/search, /song/info, /user/info, /playlist/info, /song/download.
+View Song	View song, View song_copy.
+Shazam	artists/get-top-songs, artists/get-latest-release, charts/track, search, songs/v2/get-details, shazam-songs/list-similarities, artists/get-details, charts/list, albums/get-details, auto-complete, songs/list-artist-top-tracks (Deprecated), albums/get-related-artist, artists/get-summary, shazam-events/list, songs/get-related-artist, shazam-songs/get-details.
+Bing Web Search	Supported Countries, Supported Languages.
+Bing Image Search	Image Search, Trending.
+Gearbest	/get_products_from_category, /get_shipping, /get_top_searches, /categories, /search, /get_product, /get_reviews.
+Kargom Nerede	companies.
+Corporate Supply Chain	Supply Chain.
+Edamam Nutrition Analysis	/api/nutrition-data.
+Fitness Calculator	Body Fat Percentage, Burned Calorie From Activity, Daily calory requirements, activities, Ideal weight, Food Info, bmi, macros amounts, Food Names And Ids, Sub_Table Names.
+Reddit meme	Trending memes, Top memes.
+Socialgrep	Comment search, Post search.
+Check Username	Patreon, Check usernames on all Platforms, Medium, Dribbble, 9gag, Pinterest, Wikipedia, Soundcloud, Askfm, shopify, Dev.to, Minecraft, Linktree, .net, Username for, Reddit, .org, Steam, Etsy, Behence, Random username, GitHub, Tumblr, Instagram, Check all domains at once, .co, .com, Facebook, Snapchat, Dockerhub, Twitch, Vimeo, .io, .us.
+Reddit	Popular Posts, Top Popular Posts, Top Comments By Username, Top Posts By Username, Rising Popular Posts, Posts By Subreddit, Post Details, Posts By Username, Comments By Username, Top Posts By Subreddit.
+Programming Memes Reddit	Get All Memes.
+Referential	Continents, Languages, Country by iso code, Countries, State, Cities, Timezone by id, City by IP address (Geo IP), Timezones, State by id, Continent by id, City by id.
+Booking	locations/auto-complete, properties/list-by-map, properties/get-hotel-photos, properties/get-featured-reviews, properties/get-policies, currency/get-exchange-rates, properties/get-static-map, properties/v2/get-rooms, properties/get-facilities, properties/get-description, properties/detail, reviews/get-scores, properties/list, properties/get-rooms (Deprecated), reviews/list, review-filters/list, filters/list.
+AliExpress unofficial	/products/{id}, /shipping/{id}, /categories, /categories/{id}, /feedbacks/{id}, /product/{id}.
+Magic AliExpress	/api/bestSales/products, /api/store/{storeID}/seller/{sellerID}/products, /api/bestSales/SortedByNewest, /api/product/{productId}/historic/prices, /api/bestSales/product/{productID}/salesHistory, /api/products/search, /api/v2/categories, /api/countriesAvailableToShipping, /api/product/{productId}/historic/sales, /api/shipping/{productID}, /api/category/{categoryId}/products, /api/bestSales/product/{productID}/pricesHistory, /api/currenciesAvailable, /api/product/{productId}, /api/product/{productID}/feedbacks.
+Flance AliExpress	product_id.
+Weather	Current Weather Data of a location., 5 day Forecast, 16 Day Forecast, Severe Weather Alerts, 120 Hour Forecast, 1 Hour / Minutely Forecast (Nowcast).
+Air Quality	Current Air Quality, Air Quality Forecast, Air Quality History.
+Random Word	/run.cgi.
+TuneIn	Broadcaster Endpoint.
+ProxyPage	Tier1, Tier2, Random proxy.
+Proxy Detection	Proxy Detection API.
+Proxy-Spider Proxies	/proxies.example.json.
+Whatsapp Scraper	Is registered on whatsapp? (get free token), Fetch profile picture, Fetch business info, Is whatsapp for business?, Is registered on whatsapp?, Fetch profile picture (get free token), Fetch business info (get free token), About.
+Bulk Whatsapp Validator	Validate WA number, Validate WA number (free), Is a business?, About info (free), About info, Is a business? (free).
+Maytapi WhatsApp	getListPhones, checkNumberStatus, getQRCode, logs, contacts, getGroups, purgeQueue, getProduct, getStatus, getScreen, queue, redeploy.
+Youtube MP3 Converter	Get Download URL MP3/MP4.
+YouTube to Mp4	Title & URL.
+whois	whois lookup v1.
+Bulk WHOIS	Bulk WHOIS, Get your WHOIS batches, Get WHOIS batch.
+Chart Lyrics	/apiv1.asmx/SearchLyricDirect?artist=michael%20jackson&song=bad.
+360 Business Tool	GetAllRecords, GetCompaniesSince, GetDocumentTypesSince, GetDocumentTypes, GetCasesSince, GetCases, GetCompanies, GetAllRecordsSince.
+Vimeo	SearchVideos, GetCategoryInfo, GetAllChannels, GetRelatedPeople, GetChannelVideos, GetChannelInfo, GetAllCategories, GetVideosComment, GetRelatedVideos, GetRelatedTags, GetRelatedChannels.
+YTStream - Download YouTube Videos	Download/Stream.
+Opencage geocoder	/geocode/v1/json.
+TrueWay Geocoding	Geocode, ReverseGeocode.
+Spott	Search places, Autocomplete places, Get place by ID, Get place by Geoname ID, Get place by IP, Get place by my IP.
+MapToolkit	Routing, Staticmaps, Global Terrain Winter, Planet Vector Tiles, Planet & Contour Vectortiles, Routing Enhancement, Search, Elevation, Global Light Tiles, Route Enhancement, Hillshading, Contours Vector Tiles.
+MapTiles	getStandardMapTile, getMapTilewithEnglishLabels, getMapTilewithFrenchLabels, getMapTilewithSpanishLabels.
+NAVITIME Geocoding	address_autocomplete, address_inclusion, address_postal_code, address_reverse_geocoding, address_code, datum_conversion, address.
+Open Brewery DB	Breweries, Search, Get a brewery, Autocomplete.
+Tasty	recipes/auto-complete, tags/list, recipes/list-similarities, recipes/list, feeds/list, recipes/detail (Deprecated), tips/list, recipes/get-more-info.
+National Weather Service	/alerts/active/region/{region}, /stations/{stationId}/observations/current, /points/{point}/forecast, /alerts?{parameters}, /alerts/active/zone/{zoneId}, /points/{point}/stations, /stations/{stationId}, /points/{point}/forecast/hourly, /points/{point}, /alerts/active/area/{area}, /products/locations, /alerts/active, /stations/{stationId}/observations, /products/types/{typeId}/locations, /gridpoints/{wfo}/{x},{y}, /products/types, /stations, /zones/{type}/{zoneId}, /alerts/active/count, /products/locations/{locationId}/types, /products/types/{typeId}/locations/{locationId}, /zones/{type}/{zoneId}/forecast, /alerts/{alertId}, /products/types/{typeId}, /stations/{stationId}/observations/{recordId}.
+Visual Crossing Weather	Weather forecast data, Historical weather record.
+WeatherAPI.com	Astronomy API, Sports API, Future Weather API, Search/Autocomplete API, Realtime Weather API, Time Zone API, History Weather API, Forecast Weather API, IP Lookup API.
+webcams.travel	/webcams/list/nearby={lat},{lng},{radius}, /webcams/map/{ne_lat},{ne_lng},{sw_lat},{sw_lng},{zoom}, /webcams/list/region={region}[,{region}[,...]], /webcams/list/orderby={order},{sort}, /webcams/list/limit={limit},{offset}, /webcams/list/bbox={ne_lat},{ne_lng},{sw_lat},{sw_lng}, /webcams/list/webcam={webcamid}[,{webcamid}[,...]], /webcams/list/country={country}[,{country}[,...]], /webcams/list/property={property}[,{property}[,...]], /webcams/list/category={category}[,{category}[,...]], /webcams/list/{modifier}[/{modifier}[/...]], /webcams/list/continent={continent}[,{continent}[,...]], /webcams/list/exclude={webcamid}[,{webcamid}[,...]].
+TrueWay Places	FindPlacesNearby, FindPlaceByText.
+Holy Bible	GetVerses, GetChapter, GetVerseOfaChapter, GetBooks.
+Uncovered Treasure	/verse/{verse}, /random, /search/{searchterm}, /topic/{topic}, /topics, /today.
+manatee jokes	random, find all, get by id.
+DaddyJokes	Random.
+Humor-Jokes-and-Memes	random-meme, search-gifs, search-jokes, generate-nonsense-word, insult, praise, search-memes, random-joke, rate-word, Create Joke.
+Memeados	Sponge bob, Pet Pet, drakelikehate, Google Fake Autocomplete.
+Jokes by API-Ninjas	/v1/jokes.
+World of Jokes	Get Random Joke, Get Random Joke By Category, Get Jokes By Specific Category, Get Jokes, Get Joke of the Day, Get Joke of the Day By Category, Get Categories of Jokes.
+Programming Memes Images	v1/memes.
+Realty in US	schools/list, agents/get-recommendations, properties/v2/list-similar-homes (Deprecated), schools/get-school-district, agents/get-listings, mortgage/v2/check-rates.
+CurrencyAPI.net	Convert, Rates, Timeframe, History, Currencies.
+Investing - Cryptocurrency Markets	coins/search, coins/get-markets, coins/get-brief-chart, coins/get-news, currencies/get-rate, currencies/list, coins/get-technical, coins/get-analysis, get-meta-data, get-ico-calendar, coins/get-fullsize-chart, coins/list.
+CheapShark - Game Deals	List of Games, Stores Info, List of Deals, Game Lookup.
+Hearthstone	Card Backs, Cards by Race, Card Set, All Cards, Cards by Quality, Cards by Class, Single Card, Info, Cards by Faction, Cards by Type, Card Search.
+World of Tanks Stats	Get Stats.
+Coin Flip	Heads / Tails.
+Mineable coins	Get coins' data.
+Coinranking	Get markets, Get coins, Get coin price, Get exchanges, Get exchange markets, Get coin price history, Get search suggestions, Get coins index, Get global stats, Get reference currencies, Get coin supply, Get coin exchanges, Get exchange coins, Get market, Get coin, Get exchange, Get coin OHLC data, Get coin markets, Get exchanges index, Get coin modifiers, Get coin issuance blockchains.
+BraveNewCoin	AssetTicker, MarketById, Market, AssetById, Asset, DailyOHLCV.
+Coinmill Currency	Coinmill.
+Tardis.dev	Exchanges.
+Mojitok Sticker Store SDK	/stickers/trending.
+Giphy	Trending GIFs, Sticker Search, Get GIFs by ID, STICKER Trending, Search, Random, STICKER Roulette, STICKER Translate, Translate.
+History	dailyWeather, hourlyWeatherZip, hourlyWeather, dailyWeatherSeries, dailyWeatherZip.
+Free NBA	Get All Teams, Get All Players, Get All Games, Get All Stats, Get a Specific Team, Get Specific Player, Get a Specific Game.
+Local Business Data	Search, Search Nearby, Business Details, Business Photos, Business Reviews, Search In Area, Autocomplete.
+Real-Time Product Search	Search, Product Offers, Product Reviews.
+Football Prediction	Predictions, Get list of fixture IDs, Away Team Last 10 Matches, List available federations, Home Team League Stats, Head To Head, Performance stats for past predictions, List available markets, Home Team Last 10 Matches, Prediction Details, Away Team League Stats.
+JSearch	Estimated Salary, Search, Job Details, Search Filters.
+Deep Translate	languages.
+Quotes	quote.
+Spotify	Get tracks, Concerts, Get radio playlist, Album metadata, Artist overview, Search, Get artists, Genre View, Artist albums, Artist related, Album tracks, Get albums, Get playlist, User followers, Track lyrics, Track credits, Artist appears on, Artist featuring, Artist singles, Get Episode, User profile, Artist discovered on, Playlist tracks.
+SongMeanings	lyrics.get, comments.get, songs.search, artists.search, users.favorite.get, users.password.reset.
+Priceline com Provider	Hotel details, Download cities, Download areas, Search hotels locations by geolocation, Search flights, Booking details of the hotel, Search - express results, Download airports, Search flights locations, Search (results v), Auto complete, Search hotels locations, Downalods hotels, Download states, Download property types, Download chains, Express Contract, Search (return flights), Download locations, Search (departures, one way), Download amenities, Search (express multi-contract), Download countries, Hotel photos, Search (round-trip), Search (results request), Search hotels, Contract, Hotel reviews, Seat Map, Download companies, Search cars locations.
+Mailcheap	Get status.
+Global Ethereum Price Index - GEX	Ticker Per Symbol, Ticker Changes, Short Ticker, All Ticker Data, Custom Ticker.
+27coupons	Popular Coupons, Trending Coupons, Latest Coupons.
+coupons	all, getallcoupon.
+Free Coupon Codes	/api/vcodes-api.php?siteid={siteid}.
+Solcast	Simple Radiation Forecast, Simple PV Power Forecast.
+weather forecast 14 days	Get forecastdata by lat/lon, List of cities in one Country, Search location by Name or zip code, List of all Countries.
+Blaze Verify	Get account info, Heartbeat, Get the status of a batch, Verify an email.
+Quick Email Verification	/v1/verify.
+mailboxlayer	Validate email address.
+Alpaca Trading	Get the clock, Get open positions, Get a list of orders, Get the calendar, Get assets, Get the account, Get an order.
+Coinbase	List orders received, Get spot price, Get account balance, Get total sell price, List recent transactions, Show transaction details, List recurring payments, Show individual subscription, Show individual recurring payment, List previously used emails, Show individual order, Show supported currencies, List recent buys and sells.
+Car Data	Types, Makes, Cars, Years.
+Car API	Trims, Exterior Colors, Trim View, Bodies, Engines, Interior Colors, Makes, Vehicle Attributes, VIN Decoder, Models, Mileages.
+GetGuidelines	all, vac.
+CarbonFootprint	CleanHydroToCarbonFootprint, CarbonFootprintFromCarTravel, FuelToCO2e, CarbonFootprintFromPublicTransit, TreeEquivalent, CarbonFootprintFromFlight, TraditionalHydroToCarbonFootprint, CarbonFootprintFromMotorBike, AirQualityHealthIndex.
+Lake B2B	Email Marketing.
+Healthcaremailing	Healthcare mailing.
+Love Calculator	getPercentage.
+Currency Exchange	exchange, listquotes.
+Hotels	locations/v2/search (Deprecated), properties/get-hotel-photos (Deprecated), properties/list (Deprecated), properties/get-details (Deprecated), properties/v2/resolve-url, locations/search (Deprecated), reviews/v2/list (Deprecated), locations/v3/search, reviews/list (Deprecated), get-meta-data (Deprecated).
+ADSBx Flight Sim Traffic	LiveTraffic.
+Apfelpreise	price.
+Messages	getMsgs.
+sms77io	Get Balance, Get Pricing, Get Status, Get Webhooks, Get Contacts, Voice, Inbound, Read, Outbound, Get Analytics, Replies.
+PubNub Network	History, Time.
+SMSAPI.com	/sms/sendernames, /profile/regional_settings/available_languages, /profile/prices, /ping, /short_url/links, /blacklist/phone_numbers, /subusers, /short_url/links/{id}, /subusers/{id}/shares/sendernames, /sms/sendernames/{sender}, /profile, /profile/regional_settings, /subusers/{id}.
+LINE Messaging	Get profile, Get default rich menu ID, Get rich menu ID of user, Get content, Download rich menu image, Get number of sent reply messages, Get rich menu list, Get rich menu.
+Helioviewer v1	getMovieStatus, playMovie, getJP2Header, getJP2Image, shortenURL, getClosestImage, getJPX, queueMovie, checkYouTubeAuth, takeScreenshot, uploadMovieToYouTube, getYouTubeAuth.
+Indeed	Search.
+British Airways Flight Info	Search today's departures by time, Search departures by route, Search arrivals by flight, Search departures by flight, Search today's arrivals by time, Search arrivals by route.
+Flightera Flight Data	airportStatistics, airportInfo, airportFlights, airportSearch, airlineStatistics, flightStatistics, airlineInfo, flightSearch, airlineSearch, airlineAircrafts, airportMetar, aircraftSearch.
+TimeTable Lookup 	airlines - Airports in a country an airline operates in, airports - Nonstop and direct routes for an airport, airports - Carriers operating out of an airport, airports - Nearest airports for a given latitude and longitude, airports - Latitude and longitude for location in country, airports - Direct routes for an airport by airline, airlines - Airlines and the countries they operate in, codes - Meal Codes, airports - Metro IATA codes, airports - Airports in a country.
+Microsoft Translator Text	Languages.
+Numbers Translator	Numbers Translator.
+Shakespeare Translator	shakespeare.
+Dicolink	Get synonyms, Get Lexical Field, Get Expressions, Get Scrabble score, Get Citations, Get Definitions, Get Antonyms, Get Random Word.
+Corona virus World and India data	COVID-19 World data country wise, COVID-19 India data state and district wise, India Timeline data starting from 30th Jan 2020.
+EndlessMedicalAPI	GetOutcomes, GetFeatures, InitSession.
+Chaingateway.io	getLastBlockNumber, getExchangeRate, exportAddress, getTokenBalance, getEthereumBalance, newAddress, subscribeAddress, getBlock, listSubscribedAddresses, listAddresses, getTransactions, unsubscribeAddress, getToken, getGasPrice, sendToken, clearAddress, sendEthereum, importAddress, deleteAddress.
+Cryptocurrency balance	Get Bitcoin Balance, Get Ether Balance, Get Tezos Balance, Get DigiByte Balance, Get Polygon Balance From Specific Network, Get Aave Balance From Specific Network, Get Shiba Inu Balance From Specific Network, Get ICON Balance, Get Cosmos Balance, Get Vechain Balance, Get TRON Balance, Get 1Inch Balance From Specific Network, Get Cordano Balance, Get BNB Balance From Specific Network, Get Ontology Gas Balance, Get Chiliz Balance From Specific Network, Get Ontology Balance, Get Reserve Rights Balance From Specific Network, Get Zilliqa Balance, Get Verge Balance, Get VeThor Token Balance, Get Dogecoin Balance, Get Yearn.finance Balance From Specific Network, Get Dogelon Mars Balance From Specific Network, Get PancakeSwap Balance From Specific Network, Get Holo Balance From Specific Network, Get Litecoin Balance, Get Solana Balance.
+Trading View	news/list, calendars/get-economic-calendar, v2/auto-complete, calendars/get-earning-calendar, countries/list, market/get-movers, stocks/get-financials, exchanges/list, ideas/detail, ideas/get-view-count, ideas/get-comments, ideas/get-replies, ideas/list, auto-complete (Deprecated).
+Yummly	feeds/list, feeds/search, feeds/auto-complete, categories/list, tags/list, feeds/list-similarities, reviews/list.
+Plant Hardiness Zone	Retrieve the Hardiness Zone.
+Currency Conversion and Exchange Rates	Convert, Recent Exchange Rates, Time-Series Endpoint, Historical Exchange Rates, Symbols.
+Bing Entity Search	Entities Search.
+Bing Autosuggest	Suggestions.
+NAVITIME Maps	map_image(GET), map_script.
+Mexico ZIP Codes	Search zip codes, Zip Code Information.
+IP Address Geolocation	IP Geolocation.
+Zippopotam.us	Get info by city, Get Zip Code info.
+Famous  Quotes	Get Random Quotes, List Categories.
+WikiHow	Steps, Images.
+Minecraft-Forge-Optifine	minecraftVersionList, downloadMinecraftJson, downloadMinecraftJar, downloadOptimize, optifineVersionList, minecraftResources.
+Forever21	products/search (Deprecated), products/v2/list, products/list (Deprecated), categories/list (Deprecated).
+31Events - Send Native Calendar Invites	EventGet, AccountList, EventList, EventResponses, AccoungGet.
+Simple & Elegant Translation Service	To get a list all the supported languages by this API Endpoint.
+Free Cashback	Cashabck.
+bitly	shorten.
+URL Link Shortener	Get a list of domains, Create a new link.
+Learn to read and write Japanese kanji	Kunyomi reading, Study list (Macquarie), Radical Japanese name, Study list (AP exam), All Kanji Details, Onyomi reading, Basic Search, Radical stroke number, Single Kanji Details, Radical position, Kanji character.
+IP Address Tracker - Free	Auto IP Lookup.
+Diffbot	Article API, Frontpage, Product API.
+Scraper's Proxy	Parser GET, JavaScript Rendered Page GET, Standard GET, Tor GET.
+Ephemeral Proxies	Get user's traffic balance, Check residential proxies service status, Check datacenter proxies service status, Obtain a new residential proxy, Extend expiration time of a datacenter proxy, Obtain a new datacenter proxy.
+Rotating Proxies	Rotating Proxy API.
+whin	personal listener, group invite link, signup, create a group, websocket checker.
+Fidelity Investments	market/get-movers, market/get-sectors, news/list-top, market/get-international, news/get-details, v3/auto-complete, market/get-orders, quotes/get-mashup, quotes/get-chart, quotes/get-details.
+Public Holiday	Public Holidays.
+Quandl	Get metadata for a time-series database, Get time-series data, Get time-series data and metadata, Get time-series metadata, Get filtered time-series data.
+Forward & Reverse Geocoding	GeocodingSearch, ReverseGeocoding, ForwardGeocoding.
+Geocoder - United States Census Bureau	Geocoding for an address, Geocoding and Geolookup for an address.
+uk.boundaries.io	Retrieve UK Postal District Outline Boundaries, Query for Distance between two H3 Indexes, Retrieve UK Postal Sector Outline Boundaries, Query for Hexagon by Location and Resolution, Query for Postal Code Unit Boundary( H3 Geo Boundary ), Query for Postal Unit Boundary by H3Index, Query for Hexagon by H3Index.
+AI Weather by Meteosource	find_places_prefix, nearest_place, hourly, current, alerts, weather_statistics, historical_weather, daily, astro, find_places, minutely.
+Social Links Search	Search Social Links.
+Real-Time Web Search	Search.
+Horse Racing	Horse Stats, Query horses, Race detail info, Results, Jockeys win rate, Racecards, Trainers win rate, Query races.
+Veriphone	verify, example.
+climate data	Get climate data by lat/lon or Key, List of cities in one Country, Search location by Name or zip code, List of all Countries.
+car code	/obd2/{code}.
+Barcode Lookup	Product.
+barcode.monster	code.
+Watchmode	Title Details, Sources, List Titles, Title Cast & Crew, Title Streaming Sources, Autocomplete Search, Streaming Release Dates, Search, Title Episodes, Person, New People, Genres, Titles with Changed Sources, New Titles, Title Seasons, Titles with Changed Episodes, Networks, Titles with Changed Details.
+OTT details	Title Details, Basic Info, Search, OTT Providers, Params, New Arrivals, Advanced Search.
+Tronald Dump	Search quotes, /random/quote, /tag/{tag}, Quote, /tag.
+SuperHero Search	Heroes, Search, Villains.
+Free Currency Converter by Hajana One	/currency-api.php.
+Asos	products/v2/list, v2/auto-complete, products/list (Deprecated), countries/list, products/v3/list-similarities.
+Geolocation Simulation For Mobile Apps	List All Layers, View Simulation, List All Groups, List All Simulations, Simulations By Application Id, List Applications, List All Simulations Of A Group, View Layer, View Application, View User's Profile.
+IP2Proxy	IP2Proxy API.
+Direct Wines	Recommendations, Cart, Profile.
+KVStore	Get Collection info, Get items, Get storage info.
+Aniku	AnikuEndPoint.
+Travel API's	B2B Travel portal development with API integration.
+Personator	Personator Endpoint.
+Forecast	RapidApiGetForecastHourlyByCoordinates, RapidApiGetForecastSummaryByCoordinates, RapidApiGetForecastSummaryByLocationName, RapidApiGetObservationHistoryByCoordinates, RapidApiGetObservationHistoryByStationId, GetStatus.
+Cat Facts	Facts.
+Kitten Placeholder	Kitten, Cat.
+Website Contacts Scraper	Scrape Contacts from Website.
+Stadia Maps Time Zone API	TZ Lookup by Location.
+Places	Places list by radius (Nearby Search) , Place properties, Places list by bounding box, Geographic coordinates by placename, Autosuggest.
+23andMe	genomes, risks, drug_responses, haplogroups, carriers, neanderthal, ancestry, publish_get by  link.
+Recipe Search and Diet	Recipe Search and Recommendations.
+Old English Translator	Translate to Old English.
+ca.boundaries.io	Query for LDU boundary, Query for City names by province/territory name, Query for All Province / Territory names, Query by FSA Code, Query for City Boundary by City name, Query for Hexagon by Location and Resolution, Query for Hexagon by H3Index.
+WHOIS v2	WHOIS lookup v2.
+Walk Score	Walk Score.
+Simple Salvage Vin Check	salvagecheck.
+Ambee Air Quality	By Coordinates, By Postal Code, By City, Weather.
+Global Address	Global Address.
+Air Cargo CO2 Track And Trace	PULL (track).
+Twitter video downloader mp4	https://mp3downy.com/twitter-video-downloader-API.
+placekitten	Kitten.
+IP Geolocation - IPWHOIS.io	JSON endpoint.
+Domain Reputation	Domain Reputation.
+Domain Checker	DNS, Whois.
+Daily atmosphere  carbon dioxide concentration	Carbon dioxide endpoint.
+Darko Androcec Example	Versions.
+Direct Debit Managed Service	Rapidata Services.

@@ -1,0 +1,72 @@
+[
+    {
+        "query": "I want to host a party.",
+        "newplan": " Surpise me.",
+        "query_id": 30
+    },
+    {
+        "query": "I want to host a party and I need some suggestions for the menu.",
+        "newplan": " Surpise me.",
+        "query_id": 31
+    },
+    {
+        "query": "I'm going on a business trip to Beijing next week.",
+        "newplan": " Surpise me.",
+        "query_id": 32
+    },
+    {
+        "query": "I'm going on a business trip to Beijing next week and I would like some suggestions regarding hotels and transportation.",
+        "newplan": " Surpise me.",
+        "query_id": 33
+    },
+    {
+        "query": "I'm going to travel to Beijing next week and I would like some suggestions.",
+        "newplan": " Surpise me.",
+        "query_id": 34
+    },
+    {
+        "query": "I'm going to travel to Beijing next week and I need to make a travel plan.",
+        "newplan": " Surpise me.",
+        "query_id": 35
+    },
+    {
+        "query": "I'm going to travel to New York next week and I want some suggestions.",
+        "newplan": " Surpise me.",
+        "query_id": 36
+    },
+    {
+        "query": "I want to host a party and I need some suggestions about food.",
+        "newplan": " Surpise me.",
+        "query_id": 37
+    },
+    {
+        "query": "I'm going to travel to New York next week.",
+        "newplan": " Surpise me.",
+        "query_id": 38
+    },
+    {
+        "query": "I'm going to travel to New York next week.",
+        "newplan": " Surpise me.",
+        "query_id": 39
+    },
+    {
+        "query": "I'm going to travel to New York next week.",
+        "newplan": " Surpise me.",
+        "query_id": 40
+    },
+    {
+        "query": "I want to host a party.",
+        "newplan": " Surpise me.",
+        "query_id": 41
+    },
+    {
+        "query": "I want to host a party.",
+        "newplan": " Surpise me.",
+        "query_id": 42
+    },
+    {
+        "query": "I want to host a party.",
+        "newplan": " Surpise me.",
+        "query_id": 43
+    }
+]

@@ -1,0 +1,240 @@
+the_cocktail_db	list_of_cocktails, detailed_cocktail_recipe_by_id.
+web_search	newssearch, websearch, imagesearch, autocomplete, spellcheck.
+investors_exchange_iex_trading	ohlc, effective_spread, iex_short_interest_list, time_series, iex_regulation_sho_threshold_securities_list, book.
+live_sports_odds	v4_sports_sport_odds, v4_sports_sport_scores, v4_sports.
+streaming_availability	search_basic_free, search_pro, search_ultra, search_by_title_free, get_basic_free, genres_free, get_ultra, services_free.
+tvmaze	search_people_q_query, search_shows_q_query, shows_id, schedule, people_id.
+diablo4_smartable	getnews, getgamesbytopic, getgames, getcommunities, gettopics, getsponsorships, getnewsletters, getpeople.
+dota_2_steam_web	match_history, match_details.
+raider_io	raiderio_call.
+bb_finance	stories_detail, market_get_price_chart, stories_list, market_get_movers, market_get_compact, news_list, news_list_by_region, market_auto_complete, stock_get_financials, market_get_chart, stock_get_statistics, market_get_full, market_get_cross_currencies.
+world_bank_gdp	list_of_countries_with_income_level, list_all_countries.
+twelve_data	market_movers_forex, risk, ceil, quote, statistics, balance_sheet, earnings, rocr, linearregslope, recommendations, stochrsi, options_chain, t3ma, medprice, wclprice, minindex, analyst_ratings_us_equities, insider_transactions, midpoint, cci, trima, minmax, sub, ht_dcperiod, eps_trend, logo, forex_pairs_list, earnings_calendar, composition, dema, sma, mama, mfs_family_list, rocr100, minus_di, sustainability, beta, coppock, sqrt, ipo_calendar, ema, avgprice, aroon, dividends, market_movers, linearregintercept, mom, supertrend, market_movers_etfs, stocks_list, min, aroonosc, exchange_rate, stoch, rocp, obv, ht_sine, ma, price_target, stochf, willr, ichimoku, eps_revisions, ht_trendmode, profile, apo, adx, revenue_estimate, ultosc, ratings, maxindex, market_movers_stocks, all_data, currency_conversion, mfs_list, ln.
+geodb_cities	city_details, city_date_time, place_details, places_near_place, places_near_location, time_zone, place_distance, city_time, city_distance, place_time, place_date_time, country_details, cities_near_location, country_places, countries, country_region_cities, admin_division_details, cities_near_city, cities_near_division, cities, places, place_located_in, languages, city_located_in, admin_divisions_near_division, time_zone_date_time, currencies, admin_divisions, admin_divisions_near_location, time_zone_time, country_regions, country_region_details, country_region_divisions, country_region_places, time_zones, locales.
+reverse_geocoding_and_geolocation_service	gettimezone, getnearestcities, getlargestcities.
+stock_and_options_trading_data_provider	options, straddle.
+quantaex_market_data	24_hours_tickers.
+morning_star	type_portfolio_get_maturity_schedule, market_get_articles, stock_v2_get_key_stats, market_get_summary, stock_v3_get_profile, type_performance_get_annual_distributions, stock_v2_key_stats_get_operating_efficiency, stock_v2_get_short_interest, stock_v2_get_ownership, type_price_get_fee_level, market_get_commentaries, type_people_get_proxy_voting_management, type_risk_get_risk_return_summary, type_parent_get_highest_rated_investments, stock_v2_get_risk_rating_breakdown, stock_v2_get_realtime_data, type_get_quote, market_v2_get_returns, type_portfolio_get_exposure, news_list, stock_v2_get_risk_rating_assessment, stock_v2_get_valuation, stock_v2_key_stats_get_overview, stock_v2_get_security_info, stock_v2_get_analysis_report, type_people_get_summary, type_performance_get_trailing_returns, stock_v2_key_stats_get_financial_health, type_analysis_get_comparables, type_parent_get_top_medalist_rated_investments, market_get_videos, type_portfolio_get_fixed_income_exposure_analysis, stock_get_histories, type_risk_get_risk_return_analysis, stock_v2_get_operating_performance, type_parent_get_medalist_rating, stock_v2_get_analysis_data, type_portfolio_get_coupon_range, stock_v2_get_price_fair_value, type_sustainability_get_product_involvement, articles_get_details, stock_v2_get_executive, type_get_strategy, stock_v2_get_financial_details, news_get_details, market_get_global_indices, stock_v2_get_trading_information, type_get_disclosure_flag, stock_v2_get_profile, type_sustainability_get_esg_risk, type_get_realtime_data, type_analysis_get_archived, type_parent_get_recent_investment_rating_change, stock_v2_key_stats_get_growth_table, market_v2_auto_complete, type_parent_get_lowest_rated_investments, market_v2_get_movers, type_portfolio_get_holdings, type_performance_get_latest_distributions, type_portfolio_get_current_fixed_income_style, market_get_movers_deprecated, type_risk_get_risk_volatility_measures, type_parent_get_summary, type_price_get_other_fees, market_v2_get_realtime_data, type_get_mini_chart_realtime_data, stock_v2_get_news, stock_v2_get_mini_chart_realtime_data, type_portfolio_get_asset_allocation, type_people_get_proxy_voting_shareholder, type_price_get_cost_illustration, type_risk_get_market_volatility_measures, stock_v2_get_competitors, type_portfolio_get_credit_quality.
+data_axle_consumer_search	consumer_name_search.
+address_correction_and_geocoding	address.
+working_days	1_3_analyse, 1_3_get_info_day, 1_3_add_working_hours, 1_3_list_non_working_days, 1_3_define_custom_period, 1_3_add_working_days, 1_3_delete_custom_period.
+evaluate_expression	evaluate_expression.
+trivia_by_api_ninjas	v1_trivia.
+chuck_norris	jokes_random, jokes_search, jokes_categories.
+music_trivia	getgamelevel.
+numbers	get_random_fact, get_trivia_fact, get_math_fact, get_date_fact, get_year_fact.
+mymemory_translation_memory	search_translations, set_contribution, create_key.
+languagetool	list_of_languages.
+dns_lookup	whoisserver_dnsservice, nslookup, reverse.
+viewdns	free_email_lookup, dns_record_lookup, traceroute, iran_firewall_test, spam_database_lookup, reverse_dns_lookup, whois, mac_address_lookup, chinese_firewall_test, ping, dns_propagation_checker.
+instagram_data	post_comments, hashtag_info, hashtag_search, user_tagged_feed, user_reels_feed, user_information_metadata_by_user_id, post_comments_v2.
+target_com_store_product_reviews_locations_data	product_search, product_reviews, target_store_location_search, product_details.
+social_media_data_tt	hashtag_feed_video_posts, user_feed_video_posts, user_metadata_information, hashtag_metadata_information_v2, trending_feed_video_posts, user_followings_list, music_metadata, user_feed_video_posts_v2, video_post_comments_v2, video_post_metadata_v2, video_post_comments.
+hm_hennes_mauritz	categories_list, products_detail, products_list, regions_list, products_search_by_barcode.
+etsy	getinterestinglistings, gettrendinglistings, findalllistingactive, findallcurrentfeaturedlistings.
+billboard_api	hot_trending_songs_powered_by_twitter, top_artists, hot_100_artists, top_dance_club_artists, hot_100_songs_greatest_of_all_time, top_artists_male, billboard_200, adult_pop_songs, australia_songs, hot_100_songs_by_women, finland_songs, hot_100_songs, top_artists_duo_group, adult_pop_songs_artists, top_r_b_hip_hop_artists, billboard_200_albums_by_women, pop_songs_artists, top_labels, mainstream_rock_artists, hungary_songs, slovakia_songs, singapore_songs, greece_songs, billboard_200_albums, ecuador_songs, sweden_songs, billboard_200_artists, pop_songs, austria_songs, billboard_global_200_year_end, top_country_artists, peru_songs, malaysia_songs, top_r_b_hip_hop_albums, hot_100, songs_of_the_summer, luxembourg_songs, hot_latin_songs, bolivia_songs, hot_country_songs, new_zealand_songs, u_k_songs, india_songs, adult_alternative_songs, billboard_u_s_afrobeats_songs, alternative_songs, taiwan_songs, south_korea_songs, top_artists_female, songs_of_the_90s, indonesia_songs, hot_100_women_artists, brazil_songs, switzerland_songs, adult_alternative_artists, turkey_songs, hot_r_b_hip_hop_songs, portugal_songs, holiday_100_songs, top_country_albums, chile_songs, france_songs, mainstream_rock_songs, romania_songs, alternative_artists, artists, billboard_200_albums_greatest_of_all_time, south_africa_songs, iceland_songs, top_new_artists, belgium_songs, top_holiday_albums, artist_100, songs_of_the_80s, ireland_songs, spain_songs, mexico_songs, philippines_songs, germany_songs, norway_songs, colombia_songs, billboard_global_200, croatia_songs, hong_kong_songs, hot_latin_songs_artists, poland_songs, billboard_japan_hot_100, netherlands_songs, denmark_songs, latin_artists, czech_republic_songs.
+deezer	playlist, search, track, artist, genre, album, editorial, radio, infos, comment.
+soundcloud	search, song_info, user_info, playlist_info, song_download.
+view_song	view_song, view_song_copy.
+shazam	artists_get_top_songs, artists_get_latest_release, charts_track, search, songs_v2_get_details, shazam_songs_list_similarities, artists_get_details, charts_list, albums_get_details, auto_complete, songs_list_artist_top_tracks_deprecated, albums_get_related_artist, artists_get_summary, shazam_events_list, songs_get_related_artist, shazam_songs_get_details.
+bing_web_search	supported_countries, supported_languages.
+bing_image_search	image_search, trending.
+gearbest	get_products_from_category, get_shipping, get_top_searches, categories, search, get_product, get_reviews.
+kargom_nerede	companies.
+corporate_supply_chain	supply_chain.
+edamam_nutrition_analysis	api_nutrition_data.
+fitness_calculator	body_fat_percentage, burned_calorie_from_activity, daily_calory_requirements, activities, ideal_weight, food_info, bmi, macros_amounts, food_names_and_ids, sub_table_names.
+reddit_meme	trending_memes, top_memes.
+socialgrep	comment_search, post_search.
+check_username	patreon, check_usernames_on_all_platforms, medium, dribbble, 9gag, pinterest, wikipedia, soundcloud, askfm, shopify, dev_to, minecraft, linktree, net, username_for, reddit, org, steam, etsy, behence, random_username, github, tumblr, instagram, check_all_domains_at_once, co, com, facebook, snapchat, dockerhub, twitch, vimeo, io, us.
+reddit	popular_posts, top_popular_posts, top_comments_by_username, top_posts_by_username, rising_popular_posts, posts_by_subreddit, post_details, posts_by_username, comments_by_username, top_posts_by_subreddit.
+programming_memes_reddit	get_all_memes.
+referential	continents, languages, country_by_iso_code, countries, state, cities, timezone_by_id, city_by_ip_address_geo_ip, timezones, state_by_id, continent_by_id, city_by_id.
+booking	locations_auto_complete, properties_list_by_map, properties_get_hotel_photos, properties_get_featured_reviews, properties_get_policies, currency_get_exchange_rates, properties_get_static_map, properties_v2_get_rooms, properties_get_facilities, properties_get_description, properties_detail, reviews_get_scores, properties_list, properties_get_rooms_deprecated, reviews_list, review_filters_list, filters_list.
+aliexpress_unofficial	products_id, shipping_id, categories, categories_id, feedbacks_id, product_id.
+magic_aliexpress	api_bestsales_products, api_store_storeid_seller_sellerid_products, api_bestsales_sortedbynewest, api_product_productid_historic_prices, api_bestsales_product_productid_saleshistory, api_products_search, api_v2_categories, api_countriesavailabletoshipping, api_product_productid_historic_sales, api_shipping_productid, api_category_categoryid_products, api_bestsales_product_productid_priceshistory, api_currenciesavailable, api_product_productid, api_product_productid_feedbacks.
+flance_aliexpress	product_id.
+weather	current_weather_data_of_a_location, 5_day_forecast, 16_day_forecast, severe_weather_alerts, 120_hour_forecast, 1_hour_minutely_forecast_nowcast.
+air_quality	current_air_quality, air_quality_forecast, air_quality_history.
+random_word	run_cgi.
+tunein	broadcaster_endpoint.
+proxypage	tier1, tier2, random_proxy.
+proxy_detection	proxy_detection_api.
+proxy_spider_proxies	proxies_example_json.
+whatsapp_scraper	is_registered_on_whatsapp_get_free_token, fetch_profile_picture, fetch_business_info, is_whatsapp_for_business, is_registered_on_whatsapp, fetch_profile_picture_get_free_token, fetch_business_info_get_free_token, about.
+bulk_whatsapp_validator	validate_wa_number, validate_wa_number_free, is_a_business, about_info_free, about_info, is_a_business_free.
+maytapi_whatsapp	getlistphones, checknumberstatus, getqrcode, logs, contacts, getgroups, purgequeue, getproduct, getstatus, getscreen, queue, redeploy.
+youtube_mp3_converter	get_download_url_mp3_mp4.
+youtube_to_mp4	title_url.
+whois	whois_lookup_v1.
+bulk_whois	bulk_whois, get_your_whois_batches, get_whois_batch.
+chart_lyrics	apiv1_asmx_searchlyricdirect_artist_michael_20jackson_song_bad.
+360_business_tool	getallrecords, getcompaniessince, getdocumenttypessince, getdocumenttypes, getcasessince, getcases, getcompanies, getallrecordssince.
+vimeo	searchvideos, getcategoryinfo, getallchannels, getrelatedpeople, getchannelvideos, getchannelinfo, getallcategories, getvideoscomment, getrelatedvideos, getrelatedtags, getrelatedchannels.
+ytstream_download_youtube_videos	download_stream.
+opencage_geocoder	geocode_v1_json.
+trueway_geocoding	geocode, reversegeocode.
+spott	search_places, autocomplete_places, get_place_by_id, get_place_by_geoname_id, get_place_by_ip, get_place_by_my_ip.
+maptoolkit	routing, staticmaps, global_terrain_winter, planet_vector_tiles, planet_contour_vectortiles, routing_enhancement, search, elevation, global_light_tiles, route_enhancement, hillshading, contours_vector_tiles.
+maptiles	getstandardmaptile, getmaptilewithenglishlabels, getmaptilewithfrenchlabels, getmaptilewithspanishlabels.
+navitime_geocoding	address_autocomplete, address_inclusion, address_postal_code, address_reverse_geocoding, address_code, datum_conversion, address.
+open_brewery_db	breweries, search, get_a_brewery, autocomplete.
+tasty	recipes_auto_complete, tags_list, recipes_list_similarities, recipes_list, feeds_list, recipes_detail_deprecated, tips_list, recipes_get_more_info.
+national_weather_service	alerts_active_region_region, stations_stationid_observations_current, points_point_forecast, alerts_parameters, alerts_active_zone_zoneid, points_point_stations, stations_stationid, points_point_forecast_hourly, points_point, alerts_active_area_area, products_locations, alerts_active, stations_stationid_observations, products_types_typeid_locations, gridpoints_wfo_x_y, products_types, stations, zones_type_zoneid, alerts_active_count, products_locations_locationid_types, products_types_typeid_locations_locationid, zones_type_zoneid_forecast, alerts_alertid, products_types_typeid, stations_stationid_observations_recordid.
+visual_crossing_weather	weather_forecast_data, historical_weather_record.
+weatherapi_com	astronomy_api, sports_api, future_weather_api, search_autocomplete_api, realtime_weather_api, time_zone_api, history_weather_api, forecast_weather_api, ip_lookup_api.
+webcams_travel	webcams_list_nearby_lat_lng_radius, webcams_map_ne_lat_ne_lng_sw_lat_sw_lng_zoom, webcams_list_region_region_region, webcams_list_orderby_order_sort, webcams_list_limit_limit_offset, webcams_list_bbox_ne_lat_ne_lng_sw_lat_sw_lng, webcams_list_webcam_webcamid_webcamid, webcams_list_country_country_country, webcams_list_property_property_property, webcams_list_category_category_category, webcams_list_modifier_modifier, webcams_list_continent_continent_continent, webcams_list_exclude_webcamid_webcamid.
+trueway_places	findplacesnearby, findplacebytext.
+holy_bible	getverses, getchapter, getverseofachapter, getbooks.
+uncovered_treasure	verse_verse, random, search_searchterm, topic_topic, topics, today.
+manatee_jokes	random, find_all, get_by_id.
+daddyjokes	random.
+humor_jokes_and_memes	random_meme, search_gifs, search_jokes, generate_nonsense_word, insult, praise, search_memes, random_joke, rate_word, create_joke.
+memeados	sponge_bob, pet_pet, drakelikehate, google_fake_autocomplete.
+jokes_by_api_ninjas	v1_jokes.
+world_of_jokes	get_random_joke, get_random_joke_by_category, get_jokes_by_specific_category, get_jokes, get_joke_of_the_day, get_joke_of_the_day_by_category, get_categories_of_jokes.
+programming_memes_images	v1_memes.
+realty_in_us	schools_list, agents_get_recommendations, properties_v2_list_similar_homes_deprecated, schools_get_school_district, agents_get_listings, mortgage_v2_check_rates.
+currencyapi_net	convert, rates, timeframe, history, currencies.
+investing_cryptocurrency_markets	coins_search, coins_get_markets, coins_get_brief_chart, coins_get_news, currencies_get_rate, currencies_list, coins_get_technical, coins_get_analysis, get_meta_data, get_ico_calendar, coins_get_fullsize_chart, coins_list.
+cheapshark_game_deals	list_of_games, stores_info, list_of_deals, game_lookup.
+hearthstone	card_backs, cards_by_race, card_set, all_cards, cards_by_quality, cards_by_class, single_card, info, cards_by_faction, cards_by_type, card_search.
+world_of_tanks_stats	get_stats.
+coin_flip	heads_tails.
+mineable_coins	get_coins_data.
+coinranking	get_markets, get_coins, get_coin_price, get_exchanges, get_exchange_markets, get_coin_price_history, get_search_suggestions, get_coins_index, get_global_stats, get_reference_currencies, get_coin_supply, get_coin_exchanges, get_exchange_coins, get_market, get_coin, get_exchange, get_coin_ohlc_data, get_coin_markets, get_exchanges_index, get_coin_modifiers, get_coin_issuance_blockchains.
+bravenewcoin	assetticker, marketbyid, market, assetbyid, asset, dailyohlcv.
+coinmill_currency	coinmill.
+tardis_dev	exchanges.
+mojitok_sticker_store_sdk	stickers_trending.
+giphy	trending_gifs, sticker_search, get_gifs_by_id, sticker_trending, search, random, sticker_roulette, sticker_translate, translate.
+history	dailyweather, hourlyweatherzip, hourlyweather, dailyweatherseries, dailyweatherzip.
+free_nba	get_all_teams, get_all_players, get_all_games, get_all_stats, get_a_specific_team, get_specific_player, get_a_specific_game.
+local_business_data	search, search_nearby, business_details, business_photos, business_reviews, search_in_area, autocomplete.
+real_time_product_search	search, product_offers, product_reviews.
+football_prediction	predictions, get_list_of_fixture_ids, away_team_last_10_matches, list_available_federations, home_team_league_stats, head_to_head, performance_stats_for_past_predictions, list_available_markets, home_team_last_10_matches, prediction_details, away_team_league_stats.
+jsearch	estimated_salary, search, job_details, search_filters.
+deep_translate	languages.
+quotes	quote.
+spotify	get_tracks, concerts, get_radio_playlist, album_metadata, artist_overview, search, get_artists, genre_view, artist_albums, artist_related, album_tracks, get_albums, get_playlist, user_followers, track_lyrics, track_credits, artist_appears_on, artist_featuring, artist_singles, get_episode, user_profile, artist_discovered_on, playlist_tracks.
+songmeanings	lyrics_get, comments_get, songs_search, artists_search, users_favorite_get, users_password_reset.
+priceline_com_provider	hotel_details, download_cities, download_areas, search_hotels_locations_by_geolocation, search_flights, booking_details_of_the_hotel, search_express_results, download_airports, search_flights_locations, search_results_v, auto_complete, search_hotels_locations, downalods_hotels, download_states, download_property_types, download_chains, express_contract, search_return_flights, download_locations, search_departures, one_way, download_amenities, search_express_multi_contract, download_countries, hotel_photos, search_round_trip, search_results_request, search_hotels, contract, hotel_reviews, seat_map, download_companies, search_cars_locations.
+mailcheap	get_status.
+global_ethereum_price_index_gex	ticker_per_symbol, ticker_changes, short_ticker, all_ticker_data, custom_ticker.
+27coupons	popular_coupons, trending_coupons, latest_coupons.
+coupons	all, getallcoupon.
+free_coupon_codes	api_vcodes_api_php_siteid_siteid.
+solcast	simple_radiation_forecast, simple_pv_power_forecast.
+weather_forecast_14_days	get_forecastdata_by_lat_lon, list_of_cities_in_one_country, search_location_by_name_or_zip_code, list_of_all_countries.
+blaze_verify	get_account_info, heartbeat, get_the_status_of_a_batch, verify_an_email.
+quick_email_verification	v1_verify.
+mailboxlayer	validate_email_address.
+alpaca_trading	get_the_clock, get_open_positions, get_a_list_of_orders, get_the_calendar, get_assets, get_the_account, get_an_order.
+coinbase	list_orders_received, get_spot_price, get_account_balance, get_total_sell_price, list_recent_transactions, show_transaction_details, list_recurring_payments, show_individual_subscription, show_individual_recurring_payment, list_previously_used_emails, show_individual_order, show_supported_currencies, list_recent_buys_and_sells.
+car_data	types, makes, cars, years.
+car_api	trims, exterior_colors, trim_view, bodies, engines, interior_colors, makes, vehicle_attributes, vin_decoder, models, mileages.
+getguidelines	all, vac.
+carbonfootprint	cleanhydrotocarbonfootprint, carbonfootprintfromcartravel, fueltoco2e, carbonfootprintfrompublictransit, treeequivalent, carbonfootprintfromflight, traditionalhydrotocarbonfootprint, carbonfootprintfrommotorbike, airqualityhealthindex.
+lake_b2b	email_marketing.
+healthcaremailing	healthcare_mailing.
+love_calculator	getpercentage.
+currency_exchange	exchange, listquotes.
+hotels	locations_v2_search_deprecated, properties_get_hotel_photos_deprecated, properties_list_deprecated, properties_get_details_deprecated, properties_v2_resolve_url, locations_search_deprecated, reviews_v2_list_deprecated, locations_v3_search, reviews_list_deprecated, get_meta_data_deprecated.
+adsbx_flight_sim_traffic	livetraffic.
+apfelpreise	price.
+messages	getmsgs.
+sms77io	get_balance, get_pricing, get_status, get_webhooks, get_contacts, voice, inbound, read, outbound, get_analytics, replies.
+pubnub_network	history, time.
+smsapi_com	sms_sendernames, profile_regional_settings_available_languages, profile_prices, ping, short_url_links, blacklist_phone_numbers, subusers, short_url_links_id, subusers_id_shares_sendernames, sms_sendernames_sender, profile, profile_regional_settings, subusers_id.
+line_messaging	get_profile, get_default_rich_menu_id, get_rich_menu_id_of_user, get_content, download_rich_menu_image, get_number_of_sent_reply_messages, get_rich_menu_list, get_rich_menu.
+helioviewer_v1	getmoviestatus, playmovie, getjp2header, getjp2image, shortenurl, getclosestimage, getjpx, queuemovie, checkyoutubeauth, takescreenshot, uploadmovietoyoutube, getyoutubeauth.
+indeed	search.
+british_airways_flight_info	search_today_s_departures_by_time, search_departures_by_route, search_arrivals_by_flight, search_departures_by_flight, search_today_s_arrivals_by_time, search_arrivals_by_route.
+flightera_flight_data	airportstatistics, airportinfo, airportflights, airportsearch, airlinestatistics, flightstatistics, airlineinfo, flightsearch, airlinesearch, airlineaircrafts, airportmetar, aircraftsearch.
+timetable_lookup	airlines_airports_in_a_country_an_airline_operates_in, airports_nonstop_and_direct_routes_for_an_airport, airports_carriers_operating_out_of_an_airport, airports_nearest_airports_for_a_given_latitude_and_longitude, airports_latitude_and_longitude_for_location_in_country, airports_direct_routes_for_an_airport_by_airline, airlines_airlines_and_the_countries_they_operate_in, codes_meal_codes, airports_metro_iata_codes, airports_airports_in_a_country.
+microsoft_translator_text	languages.
+numbers_translator	numbers_translator.
+shakespeare_translator	shakespeare.
+dicolink	get_synonyms, get_lexical_field, get_expressions, get_scrabble_score, get_citations, get_definitions, get_antonyms, get_random_word.
+corona_virus_world_and_india_data	covid_19_world_data_country_wise, covid_19_india_data_state_and_district_wise, india_timeline_data_starting_from_30th_jan_2020.
+endlessmedicalapi	getoutcomes, getfeatures, initsession.
+chaingateway_io	getlastblocknumber, getexchangerate, exportaddress, gettokenbalance, getethereumbalance, newaddress, subscribeaddress, getblock, listsubscribedaddresses, listaddresses, gettransactions, unsubscribeaddress, gettoken, getgasprice, sendtoken, clearaddress, sendethereum, importaddress, deleteaddress.
+cryptocurrency_balance	get_bitcoin_balance, get_ether_balance, get_tezos_balance, get_digibyte_balance, get_polygon_balance_from_specific_network, get_aave_balance_from_specific_network, get_shiba_inu_balance_from_specific_network, get_icon_balance, get_cosmos_balance, get_vechain_balance, get_tron_balance, get_1inch_balance_from_specific_network, get_cordano_balance, get_bnb_balance_from_specific_network, get_ontology_gas_balance, get_chiliz_balance_from_specific_network, get_ontology_balance, get_reserve_rights_balance_from_specific_network, get_zilliqa_balance, get_verge_balance, get_vethor_token_balance, get_dogecoin_balance, get_yearn_finance_balance_from_specific_network, get_dogelon_mars_balance_from_specific_network, get_pancakeswap_balance_from_specific_network, get_holo_balance_from_specific_network, get_litecoin_balance, get_solana_balance.
+trading_view	news_list, calendars_get_economic_calendar, v2_auto_complete, calendars_get_earning_calendar, countries_list, market_get_movers, stocks_get_financials, exchanges_list, ideas_detail, ideas_get_view_count, ideas_get_comments, ideas_get_replies, ideas_list, auto_complete_deprecated.
+yummly	feeds_list, feeds_search, feeds_auto_complete, categories_list, tags_list, feeds_list_similarities, reviews_list.
+plant_hardiness_zone	retrieve_the_hardiness_zone.
+currency_conversion_and_exchange_rates	convert, recent_exchange_rates, time_series_endpoint, historical_exchange_rates, symbols.
+bing_entity_search	entities_search.
+bing_autosuggest	suggestions.
+navitime_maps	map_image_get, map_script.
+mexico_zip_codes	search_zip_codes, zip_code_information.
+ip_address_geolocation	ip_geolocation.
+zippopotam_us	get_info_by_city, get_zip_code_info.
+famous_quotes	get_random_quotes, list_categories.
+wikihow	steps, images.
+minecraft_forge_optifine	minecraftversionlist, downloadminecraftjson, downloadminecraftjar, downloadoptimize, optifineversionlist, minecraftresources.
+forever21	products_search_deprecated, products_v2_list, products_list_deprecated, categories_list_deprecated.
+31events_send_native_calendar_invites	eventget, accountlist, eventlist, eventresponses, accoungget.
+simple_elegant_translation_service	to_get_a_list_all_the_supported_languages_by_this_api_endpoint.
+free_cashback	cashabck.
+bitly	shorten.
+url_link_shortener	get_a_list_of_domains, create_a_new_link.
+learn_to_read_and_write_japanese_kanji	kunyomi_reading, study_list_macquarie, radical_japanese_name, study_list_ap_exam, all_kanji_details, onyomi_reading, basic_search, radical_stroke_number, single_kanji_details, radical_position, kanji_character.
+ip_address_tracker_free	auto_ip_lookup.
+diffbot	article_api, frontpage, product_api.
+scraper_s_proxy	parser_get, javascript_rendered_page_get, standard_get, tor_get.
+ephemeral_proxies	get_user_s_traffic_balance, check_residential_proxies_service_status, check_datacenter_proxies_service_status, obtain_a_new_residential_proxy, extend_expiration_time_of_a_datacenter_proxy, obtain_a_new_datacenter_proxy.
+rotating_proxies	rotating_proxy_api.
+whin	personal_listener, group_invite_link, signup, create_a_group, websocket_checker.
+fidelity_investments	market_get_movers, market_get_sectors, news_list_top, market_get_international, news_get_details, v3_auto_complete, market_get_orders, quotes_get_mashup, quotes_get_chart, quotes_get_details.
+public_holiday	public_holidays.
+quandl	get_metadata_for_a_time_series_database, get_time_series_data, get_time_series_data_and_metadata, get_time_series_metadata, get_filtered_time_series_data.
+forward_reverse_geocoding	geocodingsearch, reversegeocoding, forwardgeocoding.
+geocoder_united_states_census_bureau	geocoding_for_an_address, geocoding_and_geolookup_for_an_address.
+uk_boundaries_io	retrieve_uk_postal_district_outline_boundaries, query_for_distance_between_two_h3_indexes, retrieve_uk_postal_sector_outline_boundaries, query_for_hexagon_by_location_and_resolution, query_for_postal_code_unit_boundary_h3_geo_boundary, query_for_postal_unit_boundary_by_h3index, query_for_hexagon_by_h3index.
+ai_weather_by_meteosource	find_places_prefix, nearest_place, hourly, current, alerts, weather_statistics, historical_weather, daily, astro, find_places, minutely.
+social_links_search	search_social_links.
+real_time_web_search	search.
+horse_racing	horse_stats, query_horses, race_detail_info, results, jockeys_win_rate, racecards, trainers_win_rate, query_races.
+veriphone	verify, example.
+climate_data	get_climate_data_by_lat_lon_or_key, list_of_cities_in_one_country, search_location_by_name_or_zip_code, list_of_all_countries.
+car_code	obd2_code.
+barcode_lookup	product.
+barcode_monster	code.
+watchmode	title_details, sources, list_titles, title_cast_crew, title_streaming_sources, autocomplete_search, streaming_release_dates, search, title_episodes, person, new_people, genres, titles_with_changed_sources, new_titles, title_seasons, titles_with_changed_episodes, networks, titles_with_changed_details.
+ott_details	title_details, basic_info, search, ott_providers, params, new_arrivals, advanced_search.
+tronald_dump	search_quotes, random_quote, tag_tag, quote, tag.
+superhero_search	heroes, search, villains.
+free_currency_converter_by_hajana_one	currency_api_php.
+asos	products_v2_list, v2_auto_complete, products_list_deprecated, countries_list, products_v3_list_similarities.
+geolocation_simulation_for_mobile_apps	list_all_layers, view_simulation, list_all_groups, list_all_simulations, simulations_by_application_id, list_applications, list_all_simulations_of_a_group, view_layer, view_application, view_user_s_profile.
+ip2proxy	ip2proxy_api.
+direct_wines	recommendations, cart, profile.
+kvstore	get_collection_info, get_items, get_storage_info.
+aniku	anikuendpoint.
+travel_api_s	b2b_travel_portal_development_with_api_integration.
+personator	personator_endpoint.
+forecast	rapidapigetforecasthourlybycoordinates, rapidapigetforecastsummarybycoordinates, rapidapigetforecastsummarybylocationname, rapidapigetobservationhistorybycoordinates, rapidapigetobservationhistorybystationid, getstatus.
+cat_facts	facts.
+kitten_placeholder	kitten, cat.
+website_contacts_scraper	scrape_contacts_from_website.
+stadia_maps_time_zone_api	tz_lookup_by_location.
+places	places_list_by_radius_nearby_search, place_properties, places_list_by_bounding_box, geographic_coordinates_by_placename, autosuggest.
+23andme	genomes, risks, drug_responses, haplogroups, carriers, neanderthal, ancestry, publish_get_by_link.
+recipe_search_and_diet	recipe_search_and_recommendations.
+old_english_translator	translate_to_old_english.
+ca_boundaries_io	query_for_ldu_boundary, query_for_city_names_by_province_territory_name, query_for_all_province_territory_names, query_by_fsa_code, query_for_city_boundary_by_city_name, query_for_hexagon_by_location_and_resolution, query_for_hexagon_by_h3index.
+whois_v2	whois_lookup_v2.
+walk_score	walk_score.
+simple_salvage_vin_check	salvagecheck.
+ambee_air_quality	by_coordinates, by_postal_code, by_city, weather.
+global_address	global_address.
+air_cargo_co2_track_and_trace	pull_track.
+twitter_video_downloader_mp4	https_mp3downy_com_twitter_video_downloader_api.
+placekitten	kitten.
+ip_geolocation_ipwhois_io	json_endpoint.
+domain_reputation	domain_reputation.
+domain_checker	dns, whois.
+daily_atmosphere_carbon_dioxide_concentration	carbon_dioxide_endpoint.
+darko_androcec_example	versions.
+direct_debit_managed_service	rapidata_services.

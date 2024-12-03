@@ -1,0 +1,4322 @@
+[
+    {
+        "query": "I'm a financial analyst and I need to gather comprehensive data for my research.",
+        "newplan": " Can you fetch the list of all countries available in the World Bank | GDP API? Additionally, provide me with the IPO calendar using the Twelve Data API to analyze the market trends.",
+        "query_id": 30,
+        "api_list": [
+            {
+                "category_name": "Data",
+                "tool_name": "World Bank | GDP",
+                "api_name": "List of countries with income level"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "World Bank | GDP",
+                "api_name": "List all countries"
+            },
+            {
+                "category_name": "Finance",
+                "tool_name": "BB Finance",
+                "api_name": "market/auto-complete"
+            },
+            {
+                "category_name": "Finance",
+                "tool_name": "BB Finance",
+                "api_name": "news/list-by-region"
+            },
+            {
+                "category_name": "Finance",
+                "tool_name": "BB Finance",
+                "api_name": "market/get-chart"
+            },
+            {
+                "category_name": "Finance",
+                "tool_name": "Twelve Data",
+                "api_name": "MA"
+            },
+            {
+                "category_name": "Finance",
+                "tool_name": "Twelve Data",
+                "api_name": "EXP"
+            },
+            {
+                "category_name": "Finance",
+                "tool_name": "Twelve Data",
+                "api_name": "IPO Calendar"
+            }
+        ]
+    },
+    {
+        "query": "My company is organizing a financial conference and we need real-time trading data for various markets.",
+        "newplan": " Can you provide us with the 24 hours trading data? Additionally, we'd like to know the strategy and market returns for the ETFs and funds we are interested in.",
+        "query_id": 60,
+        "api_list": [
+            {
+                "category_name": "Financial",
+                "tool_name": "QuantaEx Market Data",
+                "api_name": "24 Hours Tickers"
+            },
+            {
+                "category_name": "Finance",
+                "tool_name": "Morning Star",
+                "api_name": "{type}/get-strategy"
+            },
+            {
+                "category_name": "Finance",
+                "tool_name": "Morning Star",
+                "api_name": "market/v2/get-returns"
+            },
+            {
+                "category_name": "Finance",
+                "tool_name": "Morning Star",
+                "api_name": "{type}/parent/get-medalist-rating"
+            },
+            {
+                "category_name": "Finance",
+                "tool_name": "Twelve Data",
+                "api_name": "PPO"
+            },
+            {
+                "category_name": "Finance",
+                "tool_name": "Twelve Data",
+                "api_name": "KAMA"
+            },
+            {
+                "category_name": "Finance",
+                "tool_name": "Twelve Data",
+                "api_name": "TYPPRICE"
+            }
+        ]
+    },
+    {
+        "query": "My company is planning to invest in the stock market and we need some insights before making a decision.",
+        "newplan": " Can you fetch the risk-return analysis for ETFs and funds? Additionally, provide us with the 24-hour trading data for various tickers.",
+        "query_id": 66,
+        "api_list": [
+            {
+                "category_name": "Finance",
+                "tool_name": "Morning Star",
+                "api_name": "{type}/risk/get-risk-return-analysis"
+            },
+            {
+                "category_name": "Finance",
+                "tool_name": "Morning Star",
+                "api_name": "{type}/analysis/get-archived"
+            },
+            {
+                "category_name": "Finance",
+                "tool_name": "Morning Star",
+                "api_name": "stock/v2/get-analysis-report"
+            },
+            {
+                "category_name": "Financial",
+                "tool_name": "QuantaEx Market Data",
+                "api_name": "24 Hours Tickers"
+            },
+            {
+                "category_name": "Finance",
+                "tool_name": "Stock and Options Trading Data Provider",
+                "api_name": "Straddle"
+            },
+            {
+                "category_name": "Finance",
+                "tool_name": "Stock and Options Trading Data Provider",
+                "api_name": "Options"
+            }
+        ]
+    },
+    {
+        "query": "I'm organizing a company event and I need to buy some products.",
+        "newplan": " Can you fetch the details of a specific product with ID 4000886597329? Additionally, provide me with the available shipping countries for the products.",
+        "query_id": 369,
+        "api_list": [
+            {
+                "category_name": "Commerce",
+                "tool_name": "AliExpress unofficial",
+                "api_name": "/product/{id}"
+            },
+            {
+                "category_name": "Commerce",
+                "tool_name": "AliExpress unofficial",
+                "api_name": "/categories/{id}"
+            },
+            {
+                "category_name": "Commerce",
+                "tool_name": "AliExpress unofficial",
+                "api_name": "/shipping/{id}"
+            },
+            {
+                "category_name": "eCommerce",
+                "tool_name": "Magic AliExpress",
+                "api_name": "/api/shipping/{productID}"
+            },
+            {
+                "category_name": "eCommerce",
+                "tool_name": "Magic AliExpress",
+                "api_name": "/api/countriesAvailableToShipping"
+            },
+            {
+                "category_name": "eCommerce",
+                "tool_name": "Magic AliExpress",
+                "api_name": "/api/bestSales/products"
+            }
+        ]
+    },
+    {
+        "query": "I'm planning a summer party and I want to serve some refreshing cocktails.",
+        "newplan": " Can you provide me with a list of summer-themed cocktails along with their detailed recipes and images? Also, suggest some breweries in my area where I can get the ingredients for these cocktails.",
+        "query_id": 496,
+        "api_list": [
+            {
+                "category_name": "Food",
+                "tool_name": "The Cocktail DB",
+                "api_name": "Detailed Cocktail Recipe by ID"
+            },
+            {
+                "category_name": "Food",
+                "tool_name": "The Cocktail DB",
+                "api_name": "List of Cocktails"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "Open Brewery DB",
+                "api_name": "Breweries"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "Open Brewery DB",
+                "api_name": "Search"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "Open Brewery DB",
+                "api_name": "Autocomplete"
+            },
+            {
+                "category_name": "Food",
+                "tool_name": "Edamam Nutrition Analysis",
+                "api_name": "/api/nutrition-data"
+            }
+        ]
+    },
+    {
+        "query": "I'm a travel blogger and I want to write an article about the best time to visit a popular tourist destination.",
+        "newplan": " Can you provide me with the hourly weather forecast for the next 3 days at the destination? Additionally, I would like to check if there are any severe weather alerts in that area.",
+        "query_id": 525,
+        "api_list": [
+            {
+                "category_name": "Data",
+                "tool_name": "Weather",
+                "api_name": "1 Hour / Minutely Forecast (Nowcast)"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "Weather",
+                "api_name": "120 Hour Forecast"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "Weather",
+                "api_name": "Severe Weather Alerts"
+            },
+            {
+                "category_name": "Weather",
+                "tool_name": "Visual Crossing Weather",
+                "api_name": "Weather forecast data"
+            },
+            {
+                "category_name": "Weather",
+                "tool_name": "Visual Crossing Weather",
+                "api_name": "Historical weather record"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "Weather",
+                "api_name": "1 Hour / Minutely Forecast (Nowcast)"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "Weather",
+                "api_name": "120 Hour Forecast"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "Weather",
+                "api_name": "Severe Weather Alerts"
+            }
+        ]
+    },
+    {
+        "query": "I'm writing a book about the power of Bible verses in daily life.",
+        "newplan": " Can you fetch a verse from the book of Isaiah, chapter 40, verse 31? Furthermore, I'm interested in exploring educational topics related to religion. Can you provide me with a list of available topics from the Uncovered Treasure API?",
+        "query_id": 569,
+        "api_list": [
+            {
+                "category_name": "Data",
+                "tool_name": "Holy Bible",
+                "api_name": "GetVerses"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "Holy Bible",
+                "api_name": "GetVerseOfaChapter"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "Holy Bible",
+                "api_name": "GetChapter"
+            },
+            {
+                "category_name": "Education",
+                "tool_name": "Uncovered Treasure",
+                "api_name": "/topic/{topic}"
+            },
+            {
+                "category_name": "Education",
+                "tool_name": "Uncovered Treasure",
+                "api_name": "/verse/{verse}"
+            },
+            {
+                "category_name": "Education",
+                "tool_name": "Uncovered Treasure",
+                "api_name": "/topics"
+            }
+        ]
+    },
+    {
+        "query": "I'm planning a party for my friends and I want to include some fun jokes to entertain them.",
+        "newplan": " Can you provide me with ten jokes from the Jokes by API-Ninjas? Additionally, I would like to search for Chuck Norris jokes that mention cats. Can you find any for me?",
+        "query_id": 587,
+        "api_list": [
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Jokes by API-Ninjas",
+                "api_name": "/v1/jokes"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Chuck Norris",
+                "api_name": "/jokes/search"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Chuck Norris",
+                "api_name": "/jokes/random"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Chuck Norris",
+                "api_name": "/jokes/categories"
+            }
+        ]
+    },
+    {
+        "query": "I'm preparing a funny presentation for my class and I need some jokes to lighten the mood.",
+        "newplan": " Fetch a random joke from the Jokes by API-Ninjas API, a Chuck Norris joke from the Chuck Norris API, and a dad joke from the DaddyJokes API.",
+        "query_id": 605,
+        "api_list": [
+            {
+                "category_name": "Entertainment",
+                "tool_name": "World of Jokes",
+                "api_name": "Get Random Joke"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "World of Jokes",
+                "api_name": "Get Joke of the Day By Category"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "World of Jokes",
+                "api_name": "Get Random Joke By Category"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Chuck Norris",
+                "api_name": "/jokes/search"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Chuck Norris",
+                "api_name": "/jokes/random"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Chuck Norris",
+                "api_name": "/jokes/categories"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Jokes by API-Ninjas",
+                "api_name": "/v1/jokes"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "DaddyJokes",
+                "api_name": "Random"
+            }
+        ]
+    },
+    {
+        "query": "I'm planning a surprise party for my best friend's birthday.",
+        "newplan": " Can you fetch a random manatee joke and a programming meme to add some fun to the party? Also, find a nearby restaurant that can accommodate a group of 20 people and make a reservation for the party.",
+        "query_id": 606,
+        "api_list": [
+            {
+                "category_name": "Science",
+                "tool_name": "manatee jokes",
+                "api_name": "get by id"
+            },
+            {
+                "category_name": "Science",
+                "tool_name": "manatee jokes",
+                "api_name": "find all"
+            },
+            {
+                "category_name": "Science",
+                "tool_name": "manatee jokes",
+                "api_name": "random"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Programming Memes Images",
+                "api_name": "v1/memes"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "World of Jokes",
+                "api_name": "Get Random Joke By Category"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "World of Jokes",
+                "api_name": "Get Random Joke"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "World of Jokes",
+                "api_name": "Get Joke of the Day"
+            }
+        ]
+    },
+    {
+        "query": "I am a sports blogger and I'm always looking for engaging content for my readers.",
+        "newplan": " Can you provide me with a list of upcoming sports events and their bookmaker odds? Additionally, I would like to search for news articles about remarkable sports achievements to share with my audience.",
+        "query_id": 710,
+        "api_list": [
+            {
+                "category_name": "Sports",
+                "tool_name": "Live Sports Odds",
+                "api_name": "/v4/sports/{sport}/odds"
+            },
+            {
+                "category_name": "Sports",
+                "tool_name": "Live Sports Odds",
+                "api_name": "/v4/sports/{sport}/scores"
+            },
+            {
+                "category_name": "Sports",
+                "tool_name": "Live Sports Odds",
+                "api_name": "/v4/sports"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "GeoDB Cities",
+                "api_name": "Place Date-Time"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "GeoDB Cities",
+                "api_name": "City Located In"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "GeoDB Cities",
+                "api_name": "Time-Zone"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "Web Search",
+                "api_name": "imageSearch"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "Web Search",
+                "api_name": "spellCheck"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "Web Search",
+                "api_name": "newsSearch"
+            }
+        ]
+    },
+    {
+        "query": "I'm planning a trip to Paris with my family and we need some information to make the most of our visit.",
+        "newplan": " Can you provide me with news articles about popular tourist attractions in Paris? Additionally, I would like to see relevant images of these attractions to get a better idea of what to expect. Finally, please recommend some good hotels in Paris that are near these attractions.",
+        "query_id": 809,
+        "api_list": [
+            {
+                "category_name": "Data",
+                "tool_name": "Web Search",
+                "api_name": "spellCheck"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "Web Search",
+                "api_name": "newsSearch"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "Web Search",
+                "api_name": "imageSearch"
+            },
+            {
+                "category_name": "eCommerce",
+                "tool_name": "Real-Time Product Search",
+                "api_name": "Product Reviews"
+            },
+            {
+                "category_name": "eCommerce",
+                "tool_name": "Real-Time Product Search",
+                "api_name": "Product Offers"
+            },
+            {
+                "category_name": "eCommerce",
+                "tool_name": "Real-Time Product Search",
+                "api_name": "Search"
+            }
+        ]
+    },
+    {
+        "query": "I'm planning a surprise visit to my grandparents and I want to make them smile.",
+        "newplan": " Fetch a random manatee joke to share with my grandparents. Additionally, provide a funny joke from the Jokes by API-Ninjas endpoint. Finally, suggest some nostalgic activities or games that we can enjoy together.",
+        "query_id": 828,
+        "api_list": [
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Jokes by API-Ninjas",
+                "api_name": "/v1/jokes"
+            },
+            {
+                "category_name": "Science",
+                "tool_name": "manatee jokes",
+                "api_name": "get by id"
+            },
+            {
+                "category_name": "Science",
+                "tool_name": "manatee jokes",
+                "api_name": "find all"
+            },
+            {
+                "category_name": "Science",
+                "tool_name": "manatee jokes",
+                "api_name": "random"
+            }
+        ]
+    },
+    {
+        "query": "My company is organizing an outdoor event in San Francisco next week.",
+        "newplan": " Could you fetch the current weather conditions and any active alerts for the area? Also, provide a radiation forecast to help us plan the event better.",
+        "query_id": 903,
+        "api_list": [
+            {
+                "category_name": "Weather",
+                "tool_name": "National Weather Service",
+                "api_name": "/alerts/active/count"
+            },
+            {
+                "category_name": "Weather",
+                "tool_name": "National Weather Service",
+                "api_name": "/stations/{stationId}"
+            },
+            {
+                "category_name": "Weather",
+                "tool_name": "National Weather Service",
+                "api_name": "/alerts/active/area/{area}"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "Solcast",
+                "api_name": "Simple PV Power Forecast"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "Solcast",
+                "api_name": "Simple Radiation Forecast"
+            }
+        ]
+    },
+    {
+        "query": "I'm planning a surprise party for my best friend's birthday and I need some ideas.",
+        "newplan": " Can you search for party planning websites that offer unique theme ideas and provide me with the options? Additionally, fetch the list of available venues for the party to finalize the location. Also, search for movies and series related to surprise parties to get inspiration for the event.",
+        "query_id": 963,
+        "api_list": [
+            {
+                "category_name": "Finance",
+                "tool_name": "Alpaca Trading",
+                "api_name": "Get the calendar"
+            },
+            {
+                "category_name": "Finance",
+                "tool_name": "Alpaca Trading",
+                "api_name": "Get a list of orders"
+            },
+            {
+                "category_name": "Finance",
+                "tool_name": "Alpaca Trading",
+                "api_name": "Get assets"
+            },
+            {
+                "category_name": "Movies",
+                "tool_name": "Streaming Availability",
+                "api_name": "Search Basic (FREE)"
+            },
+            {
+                "category_name": "Movies",
+                "tool_name": "Streaming Availability",
+                "api_name": "Search Ultra"
+            },
+            {
+                "category_name": "Movies",
+                "tool_name": "Streaming Availability",
+                "api_name": "Search By Title (FREE)"
+            }
+        ]
+    },
+    {
+        "query": "I'm planning a family vacation and I need to get the vaccination guidelines for traveling.",
+        "newplan": " Can you provide me with the necessary vaccinations my family should take, including any specific requirements for each country we plan to visit? Additionally, I would like to gather information on healthcare mailing lists to reach out to medical professionals and clinics in the countries we'll be visiting.",
+        "query_id": 989,
+        "api_list": [
+            {
+                "category_name": "Medical",
+                "tool_name": "GetGuidelines",
+                "api_name": "vac"
+            },
+            {
+                "category_name": "Medical",
+                "tool_name": "GetGuidelines",
+                "api_name": "all"
+            },
+            {
+                "category_name": "Business",
+                "tool_name": "Healthcaremailing",
+                "api_name": "Healthcare mailing"
+            },
+            {
+                "category_name": "Business",
+                "tool_name": "Lake B2B",
+                "api_name": "Email Marketing"
+            }
+        ]
+    },
+    {
+        "query": "I'm a music enthusiast and I want to explore different genres and artists.",
+        "newplan": " Can you help me search for tracks and artists using the Deezer API? Additionally, I would like to search for songs and artists using the Shazam API.",
+        "query_id": 3345,
+        "api_list": [
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Chart Lyrics",
+                "api_name": "/apiv1.asmx/SearchLyricDirect?artist=michael%20jackson&song=bad"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Deezer",
+                "api_name": "Track"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Deezer",
+                "api_name": "Album"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Deezer",
+                "api_name": "* Search"
+            },
+            {
+                "category_name": "Music",
+                "tool_name": "Shazam",
+                "api_name": "songs/get-related-artist"
+            },
+            {
+                "category_name": "Music",
+                "tool_name": "Shazam",
+                "api_name": "search"
+            },
+            {
+                "category_name": "Music",
+                "tool_name": "Shazam",
+                "api_name": "charts/track"
+            }
+        ]
+    },
+    {
+        "query": "I am planning a trip to Europe and want to convert 1000 USD to Euros.",
+        "newplan": " Can you provide me with the current exchange rate and historical exchange rates for the past week? Additionally, I would like to know the available quotes in the Currency Exchange API.",
+        "query_id": 3393,
+        "api_list": [
+            {
+                "category_name": "Finance",
+                "tool_name": "Coinmill Currency",
+                "api_name": "Coinmill"
+            },
+            {
+                "category_name": "Finance",
+                "tool_name": "Free Currency Converter by Hajana One",
+                "api_name": "/currency-api.php"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "Currency Exchange",
+                "api_name": "listquotes"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "Currency Exchange",
+                "api_name": "exchange"
+            },
+            {
+                "category_name": "Finance",
+                "tool_name": "Currency Conversion and Exchange Rates",
+                "api_name": "Convert"
+            },
+            {
+                "category_name": "Finance",
+                "tool_name": "Currency Conversion and Exchange Rates",
+                "api_name": "Recent Exchange Rates"
+            },
+            {
+                "category_name": "Finance",
+                "tool_name": "Currency Conversion and Exchange Rates",
+                "api_name": "Historical Exchange Rates"
+            }
+        ]
+    },
+    {
+        "query": "I'm planning a romantic dinner for my partner and I want to create a romantic atmosphere with famous quotes about love and passion.",
+        "newplan": " Can you provide me with random quotes from those categories? Additionally, I need some messages related to romance and affection to include in a love letter. Please fetch those for me.",
+        "query_id": 3516,
+        "api_list": [
+            {
+                "category_name": "Data",
+                "tool_name": "Messages",
+                "api_name": "getMsgs"
+            },
+            {
+                "category_name": "Tools",
+                "tool_name": "Famous  Quotes",
+                "api_name": "List Categories"
+            },
+            {
+                "category_name": "Tools",
+                "tool_name": "Famous  Quotes",
+                "api_name": "Get Random Quotes"
+            }
+        ]
+    },
+    {
+        "query": "I'm organizing a team-building event for my company and I need some inspirational quotes to motivate the employees.",
+        "newplan": " Fetch me some random quotes about success and teamwork. Additionally, provide me with step-by-step instructions on how to organize a successful team-building activity. And don't forget to fetch some images of successful teams for presentation slides.",
+        "query_id": 3518,
+        "api_list": [
+            {
+                "category_name": "Tools",
+                "tool_name": "Famous  Quotes",
+                "api_name": "Get Random Quotes"
+            },
+            {
+                "category_name": "Tools",
+                "tool_name": "Famous  Quotes",
+                "api_name": "List Categories"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "WikiHow",
+                "api_name": "Steps"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "WikiHow",
+                "api_name": "Images"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "Messages",
+                "api_name": "getMsgs"
+            }
+        ]
+    },
+    {
+        "query": "I'm organizing a Hearthstone tournament and I need to create a unique experience for the participants.",
+        "newplan": " Can you fetch all the available card backs and provide me with their images? It would also be great if you could find any sponsorships related to Diablo 4 that we can incorporate into our event.",
+        "query_id": 3545,
+        "api_list": [
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Hearthstone",
+                "api_name": "Card Backs"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Hearthstone",
+                "api_name": "Cards by Type"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Hearthstone",
+                "api_name": "Cards by Quality"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "Diablo4 Smartable",
+                "api_name": "GetPeople"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "Diablo4 Smartable",
+                "api_name": "GetSponsorships"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "Diablo4 Smartable",
+                "api_name": "GetGamesByTopic"
+            }
+        ]
+    },
+    {
+        "query": "I'm a stock trader and I want to compare the trading data for different stocks.",
+        "newplan": " Can you provide me with the 24 hours tickers for Apple, Microsoft, and Amazon? Additionally, I'm interested in the lowest value over the past hour for each stock. Please give me the MIN values. Also, I want to compare the opening and closing prices of each stock. Please calculate the differences for me using the SUB function.",
+        "query_id": 3675,
+        "api_list": [
+            {
+                "category_name": "Financial",
+                "tool_name": "QuantaEx Market Data",
+                "api_name": "24 Hours Tickers"
+            },
+            {
+                "category_name": "Finance",
+                "tool_name": "Twelve Data",
+                "api_name": "MIN"
+            },
+            {
+                "category_name": "Finance",
+                "tool_name": "Twelve Data",
+                "api_name": "MINMAX"
+            },
+            {
+                "category_name": "Finance",
+                "tool_name": "Twelve Data",
+                "api_name": "SUB"
+            },
+            {
+                "category_name": "Finance",
+                "tool_name": "Morning Star",
+                "api_name": "{type}/parent/get-investment-flows"
+            },
+            {
+                "category_name": "Finance",
+                "tool_name": "Morning Star",
+                "api_name": "{type}/people/get-summary"
+            },
+            {
+                "category_name": "Finance",
+                "tool_name": "Morning Star",
+                "api_name": "{type}/price/get-cost-illustration"
+            }
+        ]
+    },
+    {
+        "query": "I want to plan a vacation with my family in Italy.",
+        "newplan": " Can you provide me with a list of non-working days between August 1st and August 15th in Italy? Additionally, I need to evaluate an expression to calculate the total cost of the vacation. The expression is '($2000 * 4) + ($500 * 2)'.",
+        "query_id": 3724,
+        "api_list": [
+            {
+                "category_name": "Other",
+                "tool_name": "Evaluate expression",
+                "api_name": "Evaluate expression"
+            },
+            {
+                "category_name": "Events",
+                "tool_name": "Working days",
+                "api_name": "/1.3/list_non_working_days"
+            },
+            {
+                "category_name": "Events",
+                "tool_name": "Working days",
+                "api_name": "/1.3/get_info_day"
+            },
+            {
+                "category_name": "Events",
+                "tool_name": "Working days",
+                "api_name": "/1.3/analyse"
+            }
+        ]
+    },
+    {
+        "query": "My family and I are planning a music-themed game night.",
+        "newplan": " Can you fetch the game level for level number 5? Also, provide us with a math fact about the number 1729 and a trivia fact about the number 42.",
+        "query_id": 3752,
+        "api_list": [
+            {
+                "category_name": "Gaming",
+                "tool_name": "Trivia by API-Ninjas",
+                "api_name": "/v1/trivia"
+            },
+            {
+                "category_name": "Media",
+                "tool_name": "Music Trivia",
+                "api_name": "/getgamelevel"
+            },
+            {
+                "category_name": "Education",
+                "tool_name": "Numbers",
+                "api_name": "Get math fact"
+            },
+            {
+                "category_name": "Education",
+                "tool_name": "Numbers",
+                "api_name": "Get trivia fact"
+            },
+            {
+                "category_name": "Education",
+                "tool_name": "Numbers",
+                "api_name": "Get year fact"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Chuck Norris",
+                "api_name": "/jokes/random"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Chuck Norris",
+                "api_name": "/jokes/search"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Chuck Norris",
+                "api_name": "/jokes/categories"
+            }
+        ]
+    },
+    {
+        "query": "I'm a music producer and I want to explore the top songs of all time for inspiration.",
+        "newplan": " Can you provide me with the Hot 100 Songs chart information from the Billboard-API? Additionally, fetch the basic information and download link for a popular song from Soundcloud.",
+        "query_id": 3895,
+        "api_list": [
+            {
+                "category_name": "Social",
+                "tool_name": "Soundcloud",
+                "api_name": "/user/info"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Soundcloud",
+                "api_name": "/song/info"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Soundcloud",
+                "api_name": "/song/download"
+            },
+            {
+                "category_name": "Music",
+                "tool_name": "Billboard-API",
+                "api_name": "Hot 100 Women Artists"
+            },
+            {
+                "category_name": "Music",
+                "tool_name": "Billboard-API",
+                "api_name": "Hot 100 Songs (Greatest of All Time)"
+            },
+            {
+                "category_name": "Music",
+                "tool_name": "Billboard-API",
+                "api_name": "Ireland Songs"
+            }
+        ]
+    },
+    {
+        "query": "I'm a graphic designer working on a project for a client who needs images of famous landmarks.",
+        "newplan": " Can you fetch me some trending images of iconic landmarks around the world? Additionally, can you provide me with the list of supported countries for web search?",
+        "query_id": 3949,
+        "api_list": [
+            {
+                "category_name": "Media",
+                "tool_name": "Bing Image Search",
+                "api_name": "Image Search"
+            },
+            {
+                "category_name": "Media",
+                "tool_name": "Bing Image Search",
+                "api_name": "Trending"
+            },
+            {
+                "category_name": "Search",
+                "tool_name": "Bing Web Search",
+                "api_name": "Supported Languages"
+            },
+            {
+                "category_name": "Search",
+                "tool_name": "Bing Web Search",
+                "api_name": "Supported Countries"
+            }
+        ]
+    },
+    {
+        "query": "I'm planning a team-building activity for my colleagues.",
+        "newplan": " Find me some posts on Reddit about successful team-building exercises and provide me with the top comments to understand the key factors. Also, suggest some popular posts and their details that I can share with my team to inspire them.",
+        "query_id": 4048,
+        "api_list": [
+            {
+                "category_name": "Data",
+                "tool_name": "Socialgrep",
+                "api_name": "Post search"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "Socialgrep",
+                "api_name": "Comment search"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Reddit",
+                "api_name": "Posts By Subreddit"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Reddit",
+                "api_name": "Top Comments By Username"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Reddit",
+                "api_name": "Post Details"
+            }
+        ]
+    },
+    {
+        "query": "I'm organizing a social event and I need some entertainment ideas.",
+        "newplan": " Fetch the top quality memes from Reddit's meme subreddit and also provide me with the post details of a specific post with ID 't3_t19inj'. Additionally, check if the usernames 'Soundcloud', 'Dribbble', and 'GitHub' are available.",
+        "query_id": 4083,
+        "api_list": [
+            {
+                "category_name": "Social",
+                "tool_name": "Reddit",
+                "api_name": "Posts By Username"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Reddit",
+                "api_name": "Popular Posts"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Reddit",
+                "api_name": "Post Details"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Check Username",
+                "api_name": "Soundcloud"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Check Username",
+                "api_name": "Dribbble"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Check Username",
+                "api_name": "GitHub"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Reddit meme",
+                "api_name": "Top memes"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Reddit meme",
+                "api_name": "Trending memes"
+            }
+        ]
+    },
+    {
+        "query": "I'm planning a beach vacation and need information about the best beach towns.",
+        "newplan": " Can you provide me with the geocoordinates for the top-rated beaches and recommend nearby hotels? Also, suggest some beach activities for the trip.",
+        "query_id": 4357,
+        "api_list": [
+            {
+                "category_name": "Data",
+                "tool_name": "Opencage geocoder",
+                "api_name": "/geocode/v1/json"
+            },
+            {
+                "category_name": "Mapping",
+                "tool_name": "TrueWay Geocoding",
+                "api_name": "ReverseGeocode"
+            },
+            {
+                "category_name": "Mapping",
+                "tool_name": "TrueWay Geocoding",
+                "api_name": "Geocode"
+            },
+            {
+                "category_name": "Location",
+                "tool_name": "Spott",
+                "api_name": "Get place by Geoname ID"
+            },
+            {
+                "category_name": "Location",
+                "tool_name": "Spott",
+                "api_name": "Get place by my IP"
+            },
+            {
+                "category_name": "Location",
+                "tool_name": "Spott",
+                "api_name": "Get place by IP"
+            }
+        ]
+    },
+    {
+        "query": "I am a pilot and I need to plan my flight.",
+        "newplan": " Can you provide me with the current weather conditions at my departure and arrival airports? Also, find the 5-day weather forecast for both airports.",
+        "query_id": 4421,
+        "api_list": [
+            {
+                "category_name": "Weather",
+                "tool_name": "National Weather Service",
+                "api_name": "/alerts/active/count"
+            },
+            {
+                "category_name": "Weather",
+                "tool_name": "National Weather Service",
+                "api_name": "/products/{productId}"
+            },
+            {
+                "category_name": "Weather",
+                "tool_name": "National Weather Service",
+                "api_name": "/stations/{stationId}/observations/current"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "Weather",
+                "api_name": "Current Weather Data of a location."
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "Weather",
+                "api_name": "1 Hour / Minutely Forecast (Nowcast)"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "Weather",
+                "api_name": "5 day Forecast"
+            },
+            {
+                "category_name": "Weather",
+                "tool_name": "Air Quality",
+                "api_name": "Air Quality Forecast"
+            },
+            {
+                "category_name": "Weather",
+                "tool_name": "Air Quality",
+                "api_name": "Air Quality History"
+            },
+            {
+                "category_name": "Weather",
+                "tool_name": "Air Quality",
+                "api_name": "Current Air Quality"
+            },
+            {
+                "category_name": "Weather",
+                "tool_name": "Visual Crossing Weather",
+                "api_name": "Weather forecast data"
+            },
+            {
+                "category_name": "Weather",
+                "tool_name": "Visual Crossing Weather",
+                "api_name": "Historical weather record"
+            }
+        ]
+    },
+    {
+        "query": "I'm planning a surprise birthday party for my sister and I need to find a suitable venue.",
+        "newplan": " Can you suggest event spaces in the city center with a capacity for 50 people? Also, recommend nearby catering services and provide me with a list of available dates for booking.",
+        "query_id": 4451,
+        "api_list": [
+            {
+                "category_name": "Location",
+                "tool_name": "Spott",
+                "api_name": "Get place by my IP"
+            },
+            {
+                "category_name": "Location",
+                "tool_name": "Spott",
+                "api_name": "Autocomplete places"
+            },
+            {
+                "category_name": "Location",
+                "tool_name": "Spott",
+                "api_name": "Get place by IP"
+            },
+            {
+                "category_name": "Travel",
+                "tool_name": "webcams.travel",
+                "api_name": "/webcams/list/orderby={order},{sort}"
+            },
+            {
+                "category_name": "Travel",
+                "tool_name": "webcams.travel",
+                "api_name": "/webcams/list/region={region}[,{region}[,...]]"
+            },
+            {
+                "category_name": "Travel",
+                "tool_name": "webcams.travel",
+                "api_name": "/webcams/list/bbox={ne_lat},{ne_lng},{sw_lat},{sw_lng}"
+            }
+        ]
+    },
+    {
+        "query": "I'm working on a project that requires maps with local labels.",
+        "newplan": " Can you provide me with a standard map tile for coordinates (x=6, y=3, z=3) that includes labels in the local language? Additionally, suggest some nearby restaurants and hotels for a meeting venue.",
+        "query_id": 4465,
+        "api_list": [
+            {
+                "category_name": "Location",
+                "tool_name": "Spott",
+                "api_name": "Get place by Geoname ID"
+            },
+            {
+                "category_name": "Location",
+                "tool_name": "Spott",
+                "api_name": "Get place by IP"
+            },
+            {
+                "category_name": "Location",
+                "tool_name": "Spott",
+                "api_name": "Autocomplete places"
+            },
+            {
+                "category_name": "Mapping",
+                "tool_name": "MapTiles",
+                "api_name": "getMapTilewithEnglishLabels"
+            },
+            {
+                "category_name": "Mapping",
+                "tool_name": "MapTiles",
+                "api_name": "getMapTilewithSpanishLabels"
+            },
+            {
+                "category_name": "Mapping",
+                "tool_name": "MapTiles",
+                "api_name": "getStandardMapTile"
+            },
+            {
+                "category_name": "Location",
+                "tool_name": "Address Correction and Geocoding",
+                "api_name": "/address"
+            }
+        ]
+    },
+    {
+        "query": "I want to surprise my friends with some funny jokes and memes at our weekly game night.",
+        "newplan": " Fetch me a random joke from World of Jokes and a programming meme. Also, find a Chuck Norris joke to make them laugh.",
+        "query_id": 4575,
+        "api_list": [
+            {
+                "category_name": "Social",
+                "tool_name": "Chuck Norris",
+                "api_name": "/jokes/random"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Chuck Norris",
+                "api_name": "/jokes/categories"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Chuck Norris",
+                "api_name": "/jokes/search"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "World of Jokes",
+                "api_name": "Get Random Joke"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "World of Jokes",
+                "api_name": "Get Jokes By Specific Category"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "World of Jokes",
+                "api_name": "Get Joke of the Day"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Programming Memes Images",
+                "api_name": "v1/memes"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Humor-Jokes-and-Memes",
+                "api_name": "praise"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Humor-Jokes-and-Memes",
+                "api_name": "search-gifs"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Humor-Jokes-and-Memes",
+                "api_name": "generate-nonsense-word"
+            }
+        ]
+    },
+    {
+        "query": "I'm planning a family gathering and I want to make everyone laugh.",
+        "newplan": " Fetch a random manatee joke, a Chuck Norris joke, and a dad joke for the occasion. Also, provide a list of available joke categories for Chuck Norris jokes.",
+        "query_id": 4595,
+        "api_list": [
+            {
+                "category_name": "Science",
+                "tool_name": "manatee jokes",
+                "api_name": "random"
+            },
+            {
+                "category_name": "Science",
+                "tool_name": "manatee jokes",
+                "api_name": "get by id"
+            },
+            {
+                "category_name": "Science",
+                "tool_name": "manatee jokes",
+                "api_name": "find all"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Chuck Norris",
+                "api_name": "/jokes/categories"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Chuck Norris",
+                "api_name": "/jokes/random"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Chuck Norris",
+                "api_name": "/jokes/search"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "DaddyJokes",
+                "api_name": "Random"
+            }
+        ]
+    },
+    {
+        "query": "My friend is planning a destination wedding in Hawaii next year.",
+        "newplan": " Can you give me the 5-day weather forecast for Honolulu starting from January 1st? Also, provide me with the weather statistics for the next 30 days in Honolulu.",
+        "query_id": 4758,
+        "api_list": [
+            {
+                "category_name": "Data",
+                "tool_name": "Weather",
+                "api_name": "5 day Forecast"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "Weather",
+                "api_name": "Severe Weather Alerts"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "Weather",
+                "api_name": "1 Hour / Minutely Forecast (Nowcast)"
+            },
+            {
+                "category_name": "Weather",
+                "tool_name": "Visual Crossing Weather",
+                "api_name": "Historical weather record"
+            },
+            {
+                "category_name": "Weather",
+                "tool_name": "Visual Crossing Weather",
+                "api_name": "Weather forecast data"
+            },
+            {
+                "category_name": "Weather",
+                "tool_name": "AI Weather by Meteosource",
+                "api_name": "nearest_place"
+            },
+            {
+                "category_name": "Weather",
+                "tool_name": "AI Weather by Meteosource",
+                "api_name": "weather_statistics"
+            },
+            {
+                "category_name": "Weather",
+                "tool_name": "AI Weather by Meteosource",
+                "api_name": "historical_weather"
+            },
+            {
+                "category_name": "Weather",
+                "tool_name": "National Weather Service",
+                "api_name": "/gridpoints/{wfo}/{x},{y}"
+            },
+            {
+                "category_name": "Weather",
+                "tool_name": "National Weather Service",
+                "api_name": "/alerts/{alertId}"
+            },
+            {
+                "category_name": "Weather",
+                "tool_name": "National Weather Service",
+                "api_name": "/stations/{stationId}/observations"
+            }
+        ]
+    },
+    {
+        "query": "I need to plan a beach party for my company.",
+        "newplan": " Can you give me the 5-day weather forecast for Miami and suggest some cocktail recipes that complement the weather? Also, provide me with the detailed recipe for a cocktail with the ID 45.",
+        "query_id": 4819,
+        "api_list": [
+            {
+                "category_name": "Data",
+                "tool_name": "Weather",
+                "api_name": "Current Weather Data of a location."
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "Weather",
+                "api_name": "1 Hour / Minutely Forecast (Nowcast)"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "Weather",
+                "api_name": "5 day Forecast"
+            },
+            {
+                "category_name": "Music",
+                "tool_name": "Shazam",
+                "api_name": "shazam-songs/get-details"
+            },
+            {
+                "category_name": "Music",
+                "tool_name": "Shazam",
+                "api_name": "auto-complete"
+            },
+            {
+                "category_name": "Music",
+                "tool_name": "Shazam",
+                "api_name": "songs/v2/get-details"
+            },
+            {
+                "category_name": "Food",
+                "tool_name": "The Cocktail DB",
+                "api_name": "List of Cocktails"
+            },
+            {
+                "category_name": "Food",
+                "tool_name": "The Cocktail DB",
+                "api_name": "Detailed Cocktail Recipe by ID"
+            }
+        ]
+    },
+    {
+        "query": "I want to surprise my friend who loves cats with a personalized gift.",
+        "newplan": " Can you fetch random kitten pictures and cat images that I can use to create a custom photo album for her? Additionally, provide me with some interesting facts about cats that I can include as captions for the photos.",
+        "query_id": 4875,
+        "api_list": [
+            {
+                "category_name": "Media",
+                "tool_name": "placekitten",
+                "api_name": "Kitten"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "Cat Facts",
+                "api_name": "Facts"
+            },
+            {
+                "category_name": "Reward",
+                "tool_name": "Kitten Placeholder",
+                "api_name": "Kitten"
+            },
+            {
+                "category_name": "Reward",
+                "tool_name": "Kitten Placeholder",
+                "api_name": "Cat"
+            }
+        ]
+    },
+    {
+        "query": "I'm planning a surprise birthday party for my friend and I need some inspiration for funny jokes and quotes to include in the party decorations.",
+        "newplan": " Can you provide me with a random Chuck Norris joke, a random manatee joke, and a funny quote? Also, find any available joke categories to add more variety to the party.",
+        "query_id": 4976,
+        "api_list": [
+            {
+                "category_name": "Education",
+                "tool_name": "Quotes",
+                "api_name": "quote"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Chuck Norris",
+                "api_name": "/jokes/search"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Chuck Norris",
+                "api_name": "/jokes/categories"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Chuck Norris",
+                "api_name": "/jokes/random"
+            },
+            {
+                "category_name": "Science",
+                "tool_name": "manatee jokes",
+                "api_name": "random"
+            },
+            {
+                "category_name": "Science",
+                "tool_name": "manatee jokes",
+                "api_name": "get by id"
+            },
+            {
+                "category_name": "Science",
+                "tool_name": "manatee jokes",
+                "api_name": "find all"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Jokes by API-Ninjas",
+                "api_name": "/v1/jokes"
+            }
+        ]
+    },
+    {
+        "query": "My friends and I are organizing a game night and we want to include some fun jokes.",
+        "newplan": " Fetch a random joke from the Jokes by API-Ninjas API, a random Chuck Norris joke, and a random manatee joke. Additionally, find a quote related to friendship to create a warm and enjoyable atmosphere.",
+        "query_id": 4979,
+        "api_list": [
+            {
+                "category_name": "Education",
+                "tool_name": "Quotes",
+                "api_name": "quote"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Chuck Norris",
+                "api_name": "/jokes/search"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Chuck Norris",
+                "api_name": "/jokes/categories"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Chuck Norris",
+                "api_name": "/jokes/random"
+            },
+            {
+                "category_name": "Science",
+                "tool_name": "manatee jokes",
+                "api_name": "random"
+            },
+            {
+                "category_name": "Science",
+                "tool_name": "manatee jokes",
+                "api_name": "get by id"
+            },
+            {
+                "category_name": "Science",
+                "tool_name": "manatee jokes",
+                "api_name": "find all"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Jokes by API-Ninjas",
+                "api_name": "/v1/jokes"
+            }
+        ]
+    },
+    {
+        "query": "I want to surprise my colleagues with some jokes and interesting facts during our lunch break.",
+        "newplan": " Fetch a random joke from the Jokes by API-Ninjas API, a random Chuck Norris joke, and a random manatee joke. Additionally, find a quote related to work to lighten the atmosphere in the office.",
+        "query_id": 4983,
+        "api_list": [
+            {
+                "category_name": "Education",
+                "tool_name": "Quotes",
+                "api_name": "quote"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Chuck Norris",
+                "api_name": "/jokes/search"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Chuck Norris",
+                "api_name": "/jokes/categories"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Chuck Norris",
+                "api_name": "/jokes/random"
+            },
+            {
+                "category_name": "Science",
+                "tool_name": "manatee jokes",
+                "api_name": "random"
+            },
+            {
+                "category_name": "Science",
+                "tool_name": "manatee jokes",
+                "api_name": "get by id"
+            },
+            {
+                "category_name": "Science",
+                "tool_name": "manatee jokes",
+                "api_name": "find all"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Jokes by API-Ninjas",
+                "api_name": "/v1/jokes"
+            }
+        ]
+    },
+    {
+        "query": "My family and I are planning a ski trip to Aspen.",
+        "newplan": " Can you provide us with the current weather conditions and a 120-hour forecast for the coordinates 39.2°N and 106.8°W? Also, let us know if there are any active weather alerts in the region. Finally, recommend some popular ski resorts and slopes in Aspen.",
+        "query_id": 5074,
+        "api_list": [
+            {
+                "category_name": "Weather",
+                "tool_name": "National Weather Service",
+                "api_name": "/gridpoints/{wfo}/{x},{y}"
+            },
+            {
+                "category_name": "Weather",
+                "tool_name": "National Weather Service",
+                "api_name": "/stations/{stationId}"
+            },
+            {
+                "category_name": "Weather",
+                "tool_name": "National Weather Service",
+                "api_name": "/alerts/active/region/{region}"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "Weather",
+                "api_name": "5 day Forecast"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "Weather",
+                "api_name": "120 Hour Forecast"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "Weather",
+                "api_name": "Current Weather Data of a location."
+            }
+        ]
+    },
+    {
+        "query": "I want to surprise my family with a spontaneous road trip to Yosemite National Park.",
+        "newplan": " Can you give me a 120-hour forecast for the park? Additionally, suggest some hiking trails and scenic spots we shouldn't miss.",
+        "query_id": 5096,
+        "api_list": [
+            {
+                "category_name": "Weather",
+                "tool_name": "National Weather Service",
+                "api_name": "/points/{point}/forecast/hourly"
+            },
+            {
+                "category_name": "Weather",
+                "tool_name": "National Weather Service",
+                "api_name": "/products/types/{typeId}"
+            },
+            {
+                "category_name": "Weather",
+                "tool_name": "National Weather Service",
+                "api_name": "/points/{point}/forecast"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "Weather",
+                "api_name": "Severe Weather Alerts"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "Weather",
+                "api_name": "120 Hour Forecast"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "Weather",
+                "api_name": "5 day Forecast"
+            }
+        ]
+    },
+    {
+        "query": "I'm a crypto trader and I need to stay updated with the latest prices.",
+        "newplan": " Can you fetch the current prices and market caps of the top 10 coins? Additionally, provide me with the historical rates for the past week.",
+        "query_id": 5188,
+        "api_list": [
+            {
+                "category_name": "Finance",
+                "tool_name": "Coinbase",
+                "api_name": "Get total buy price"
+            },
+            {
+                "category_name": "Finance",
+                "tool_name": "Coinbase",
+                "api_name": "List orders received"
+            },
+            {
+                "category_name": "Finance",
+                "tool_name": "Coinbase",
+                "api_name": "Get account balance"
+            },
+            {
+                "category_name": "Financial",
+                "tool_name": "CurrencyAPI.net",
+                "api_name": "Timeframe"
+            },
+            {
+                "category_name": "Financial",
+                "tool_name": "CurrencyAPI.net",
+                "api_name": "Currencies"
+            },
+            {
+                "category_name": "Financial",
+                "tool_name": "CurrencyAPI.net",
+                "api_name": "Rates"
+            },
+            {
+                "category_name": "Finance",
+                "tool_name": "Coinranking",
+                "api_name": "Get exchange"
+            },
+            {
+                "category_name": "Finance",
+                "tool_name": "Coinranking",
+                "api_name": "Get global stats"
+            },
+            {
+                "category_name": "Finance",
+                "tool_name": "Coinranking",
+                "api_name": "Get coins"
+            }
+        ]
+    },
+    {
+        "query": "I'm planning a movie night with my friends and we want to start the evening with some jokes.",
+        "newplan": " Can you suggest some movie-themed Chuck Norris jokes? Also, provide us with the game schedule and team standings of our favorite NBA team to plan future movie nights around their games.",
+        "query_id": 5344,
+        "api_list": [
+            {
+                "category_name": "Social",
+                "tool_name": "Chuck Norris",
+                "api_name": "/jokes/categories"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Chuck Norris",
+                "api_name": "/jokes/search"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Chuck Norris",
+                "api_name": "/jokes/random"
+            },
+            {
+                "category_name": "Sports",
+                "tool_name": "Free NBA",
+                "api_name": "Get a Specific Game"
+            },
+            {
+                "category_name": "Sports",
+                "tool_name": "Free NBA",
+                "api_name": "Get All Games"
+            },
+            {
+                "category_name": "Sports",
+                "tool_name": "Free NBA",
+                "api_name": "Get a Specific Team"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "Currency Exchange",
+                "api_name": "listquotes"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "Currency Exchange",
+                "api_name": "exchange"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Love Calculator",
+                "api_name": "getPercentage"
+            }
+        ]
+    },
+    {
+        "query": "I'm planning a family vacation to Paris and I need some assistance with mapping.",
+        "newplan": " Can you provide me with a standard map tile of zoom level 3 for the coordinates (48.8566° N, 2.3522° E)? Additionally, I would like to know the average price of a new Apple MacBook Pro 13\" 2020 (manufacturer number TVdQNzJEL0E=) in Paris.",
+        "query_id": 5550,
+        "api_list": [
+            {
+                "category_name": "Mapping",
+                "tool_name": "MapTiles",
+                "api_name": "getMapTilewithFrenchLabels"
+            },
+            {
+                "category_name": "Mapping",
+                "tool_name": "MapTiles",
+                "api_name": "getStandardMapTile"
+            },
+            {
+                "category_name": "Mapping",
+                "tool_name": "MapTiles",
+                "api_name": "getMapTilewithSpanishLabels"
+            },
+            {
+                "category_name": "Commerce",
+                "tool_name": "Apfelpreise",
+                "api_name": "price"
+            }
+        ]
+    },
+    {
+        "query": "I'm a DJ and I'm looking for remixes of popular songs.",
+        "newplan": " Can you help me find remixes of the top tracks in the charts? Additionally, provide me with the details of the artists who created these remixes.",
+        "query_id": 5968,
+        "api_list": [
+            {
+                "category_name": "Music",
+                "tool_name": "Shazam",
+                "api_name": "charts/list"
+            },
+            {
+                "category_name": "Music",
+                "tool_name": "Shazam",
+                "api_name": "auto-complete"
+            },
+            {
+                "category_name": "Music",
+                "tool_name": "Shazam",
+                "api_name": "albums/get-details"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Soundcloud",
+                "api_name": "/playlist/info"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Soundcloud",
+                "api_name": "/user/info"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Soundcloud",
+                "api_name": "/search"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Chart Lyrics",
+                "api_name": "/apiv1.asmx/SearchLyricDirect?artist=michael%20jackson&song=bad"
+            }
+        ]
+    },
+    {
+        "query": "I'm planning a solo trip to Tokyo and would like to know the three nearest cities to Tokyo.",
+        "newplan": " Can you provide their names, population, distance, and country? Also, find the timezone information for Tokyo.",
+        "query_id": 5980,
+        "api_list": [
+            {
+                "category_name": "Mapping",
+                "tool_name": "Reverse Geocoding and Geolocation Service",
+                "api_name": "GetLargestCities"
+            },
+            {
+                "category_name": "Mapping",
+                "tool_name": "Reverse Geocoding and Geolocation Service",
+                "api_name": "GetNearestCities"
+            },
+            {
+                "category_name": "Mapping",
+                "tool_name": "Reverse Geocoding and Geolocation Service",
+                "api_name": "GetTimezone"
+            },
+            {
+                "category_name": "Mapping",
+                "tool_name": "TrueWay Geocoding",
+                "api_name": "ReverseGeocode"
+            },
+            {
+                "category_name": "Mapping",
+                "tool_name": "TrueWay Geocoding",
+                "api_name": "Geocode"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "GeoDB Cities",
+                "api_name": "Place Distance"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "GeoDB Cities",
+                "api_name": "City Distance"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "GeoDB Cities",
+                "api_name": "Country Places"
+            }
+        ]
+    },
+    {
+        "query": "I'm organizing a company workshop in Singapore and need to find the five largest cities within a 50 km radius of the workshop venue.",
+        "newplan": " Please provide their names, population, distance, and country. Additionally, find the local timezone for Singapore.",
+        "query_id": 5983,
+        "api_list": [
+            {
+                "category_name": "Mapping",
+                "tool_name": "Reverse Geocoding and Geolocation Service",
+                "api_name": "GetLargestCities"
+            },
+            {
+                "category_name": "Mapping",
+                "tool_name": "Reverse Geocoding and Geolocation Service",
+                "api_name": "GetNearestCities"
+            },
+            {
+                "category_name": "Mapping",
+                "tool_name": "Reverse Geocoding and Geolocation Service",
+                "api_name": "GetTimezone"
+            },
+            {
+                "category_name": "Mapping",
+                "tool_name": "TrueWay Geocoding",
+                "api_name": "ReverseGeocode"
+            },
+            {
+                "category_name": "Mapping",
+                "tool_name": "TrueWay Geocoding",
+                "api_name": "Geocode"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "GeoDB Cities",
+                "api_name": "Place Distance"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "GeoDB Cities",
+                "api_name": "City Distance"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "GeoDB Cities",
+                "api_name": "Country Places"
+            }
+        ]
+    },
+    {
+        "query": "I'm planning a road trip with my family and we need some good music to listen to.",
+        "newplan": " Can you suggest a playlist from Soundcloud that includes popular songs? Additionally, I want to know the basic information about a specific user on Soundcloud. Can you fetch the user's information?",
+        "query_id": 6068,
+        "api_list": [
+            {
+                "category_name": "Social",
+                "tool_name": "Soundcloud",
+                "api_name": "/playlist/info"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Soundcloud",
+                "api_name": "/user/info"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Soundcloud",
+                "api_name": "/song/download"
+            },
+            {
+                "category_name": "Music",
+                "tool_name": "Billboard-API",
+                "api_name": "Australia Songs"
+            },
+            {
+                "category_name": "Music",
+                "tool_name": "Billboard-API",
+                "api_name": "Top Labels"
+            },
+            {
+                "category_name": "Music",
+                "tool_name": "Billboard-API",
+                "api_name": "Peru Songs"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Deezer",
+                "api_name": "Album"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Deezer",
+                "api_name": "Genre"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Deezer",
+                "api_name": "Track"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "SongMeanings",
+                "api_name": "artists.search"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "SongMeanings",
+                "api_name": "users.password.reset"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "SongMeanings",
+                "api_name": "users.favorite.get"
+            },
+            {
+                "category_name": "Music",
+                "tool_name": "Shazam",
+                "api_name": "songs/v2/get-details"
+            },
+            {
+                "category_name": "Music",
+                "tool_name": "Shazam",
+                "api_name": "artists/get-latest-release"
+            },
+            {
+                "category_name": "Music",
+                "tool_name": "Shazam",
+                "api_name": "shazam-songs/get-details"
+            }
+        ]
+    },
+    {
+        "query": "I'm organizing a family gathering and I want to create a playlist that caters to everyone's musical preferences.",
+        "newplan": " Can you suggest a diverse playlist with tracks from various genres? It would be helpful if you could provide information about the artists and their respective genres as well. I want to make sure everyone has a great time!",
+        "query_id": 6144,
+        "api_list": [
+            {
+                "category_name": "Social",
+                "tool_name": "Soundcloud",
+                "api_name": "/search"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Soundcloud",
+                "api_name": "/playlist/info"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Soundcloud",
+                "api_name": "/song/info"
+            },
+            {
+                "category_name": "Music",
+                "tool_name": "Shazam",
+                "api_name": "charts/track"
+            },
+            {
+                "category_name": "Music",
+                "tool_name": "Shazam",
+                "api_name": "albums/get-related-artist"
+            },
+            {
+                "category_name": "Music",
+                "tool_name": "Shazam",
+                "api_name": "search"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Deezer",
+                "api_name": "Genre"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Deezer",
+                "api_name": "Artist"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Deezer",
+                "api_name": "* Search"
+            }
+        ]
+    },
+    {
+        "query": "My friends and I are planning a hiking trip to the Grand Canyon.",
+        "newplan": " Can you recommend some nearby hotels with good ratings and reviews? Additionally, provide us with the options and effective spreads for trading stocks of Apple Inc.",
+        "query_id": 6344,
+        "api_list": [
+            {
+                "category_name": "Financial",
+                "tool_name": "QuantaEx Market Data",
+                "api_name": "24 Hours Tickers"
+            },
+            {
+                "category_name": "Finance",
+                "tool_name": "Stock and Options Trading Data Provider",
+                "api_name": "Options"
+            },
+            {
+                "category_name": "Finance",
+                "tool_name": "Stock and Options Trading Data Provider",
+                "api_name": "Straddle"
+            },
+            {
+                "category_name": "Finance",
+                "tool_name": "Investors Exchange (IEX) Trading",
+                "api_name": "IEX Short Interest List"
+            },
+            {
+                "category_name": "Finance",
+                "tool_name": "Investors Exchange (IEX) Trading",
+                "api_name": "OHLC"
+            },
+            {
+                "category_name": "Finance",
+                "tool_name": "Investors Exchange (IEX) Trading",
+                "api_name": "Effective Spread"
+            },
+            {
+                "category_name": "Finance",
+                "tool_name": "Morning Star",
+                "api_name": "{type}/parent/get-morningstar-rating"
+            },
+            {
+                "category_name": "Finance",
+                "tool_name": "Morning Star",
+                "api_name": "{type}/portfolio/get-coupon-range"
+            },
+            {
+                "category_name": "Finance",
+                "tool_name": "Morning Star",
+                "api_name": "news/list"
+            }
+        ]
+    },
+    {
+        "query": "I'm preparing a presentation on famous events in history and I need some interesting facts.",
+        "newplan": " Can you give me a trivia fact about the year 1492 and a Chuck Norris joke to entertain the audience? Also, fetch me a trivia question from the 'geography' category.",
+        "query_id": 6436,
+        "api_list": [
+            {
+                "category_name": "Gaming",
+                "tool_name": "Trivia by API-Ninjas",
+                "api_name": "/v1/trivia"
+            },
+            {
+                "category_name": "Media",
+                "tool_name": "Music Trivia",
+                "api_name": "/getgamelevel"
+            },
+            {
+                "category_name": "Education",
+                "tool_name": "Numbers",
+                "api_name": "Get math fact"
+            },
+            {
+                "category_name": "Education",
+                "tool_name": "Numbers",
+                "api_name": "Get trivia fact"
+            },
+            {
+                "category_name": "Education",
+                "tool_name": "Numbers",
+                "api_name": "Get year fact"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Chuck Norris",
+                "api_name": "/jokes/categories"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Chuck Norris",
+                "api_name": "/jokes/search"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Chuck Norris",
+                "api_name": "/jokes/random"
+            }
+        ]
+    },
+    {
+        "query": "Can you find a Chuck Norris joke that mentions the word 'programming' and provide a trivia fact about the year 1492? Also, give me a random trivia question from the gaming category.",
+        "newplan": "",
+        "query_id": 6446,
+        "api_list": [
+            {
+                "category_name": "Social",
+                "tool_name": "Chuck Norris",
+                "api_name": "/jokes/search"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Chuck Norris",
+                "api_name": "/jokes/random"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Chuck Norris",
+                "api_name": "/jokes/categories"
+            },
+            {
+                "category_name": "Gaming",
+                "tool_name": "Trivia by API-Ninjas",
+                "api_name": "/v1/trivia"
+            },
+            {
+                "category_name": "Education",
+                "tool_name": "Numbers",
+                "api_name": "Get trivia fact"
+            },
+            {
+                "category_name": "Education",
+                "tool_name": "Numbers",
+                "api_name": "Get year fact"
+            },
+            {
+                "category_name": "Education",
+                "tool_name": "Numbers",
+                "api_name": "Get math fact"
+            },
+            {
+                "category_name": "Media",
+                "tool_name": "Music Trivia",
+                "api_name": "/getgamelevel"
+            }
+        ]
+    },
+    {
+        "query": "I'm hosting a karaoke night and I need a list of popular songs that people can sing along to.",
+        "newplan": " Can you suggest some well-known songs by a specific artist? Also, provide me with similar songs that are crowd favorites.",
+        "query_id": 6522,
+        "api_list": [
+            {
+                "category_name": "Music",
+                "tool_name": "Shazam",
+                "api_name": "songs/list-artist-top-tracks (Deprecated)"
+            },
+            {
+                "category_name": "Music",
+                "tool_name": "Shazam",
+                "api_name": "shazam-songs/list-similarities"
+            },
+            {
+                "category_name": "Music",
+                "tool_name": "Shazam",
+                "api_name": "charts/list"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Deezer",
+                "api_name": "* Search"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Deezer",
+                "api_name": "Editorial"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Deezer",
+                "api_name": "Infos"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Soundcloud",
+                "api_name": "/user/info"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Soundcloud",
+                "api_name": "/song/info"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Soundcloud",
+                "api_name": "/search"
+            },
+            {
+                "category_name": "Music",
+                "tool_name": "Billboard-API",
+                "api_name": "Iceland Songs"
+            },
+            {
+                "category_name": "Music",
+                "tool_name": "Billboard-API",
+                "api_name": "India Songs"
+            },
+            {
+                "category_name": "Music",
+                "tool_name": "Billboard-API",
+                "api_name": "Finland Songs"
+            },
+            {
+                "category_name": "Music",
+                "tool_name": "View Song",
+                "api_name": "View song_copy"
+            },
+            {
+                "category_name": "Music",
+                "tool_name": "View Song",
+                "api_name": "View song"
+            }
+        ]
+    },
+    {
+        "query": "I'm planning a family gathering and we need some good music to set the mood.",
+        "newplan": " Can you suggest the top duo/group artists of the year for a lively playlist? Additionally, we would like to download a song for each artist on the list. Thank you!",
+        "query_id": 6549,
+        "api_list": [
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Deezer",
+                "api_name": "Track"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Deezer",
+                "api_name": "Artist"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Deezer",
+                "api_name": "Comment"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Soundcloud",
+                "api_name": "/search"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Soundcloud",
+                "api_name": "/playlist/info"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Soundcloud",
+                "api_name": "/song/download"
+            },
+            {
+                "category_name": "Music",
+                "tool_name": "Billboard-API",
+                "api_name": "Top Artists - Duo/Group"
+            },
+            {
+                "category_name": "Music",
+                "tool_name": "Billboard-API",
+                "api_name": "Hot 100 Songs by Women"
+            },
+            {
+                "category_name": "Music",
+                "tool_name": "Billboard-API",
+                "api_name": "Pop Songs Artists"
+            }
+        ]
+    },
+    {
+        "query": "I'm a developer and I want to integrate Reddit data into my application.",
+        "newplan": " Can you provide me with the latest posts and comments made by a specific user using the Reddit API? Additionally, show me some rising popular posts from Reddit and provide me with the latest memes from the Programming Memes Reddit API.",
+        "query_id": 6719,
+        "api_list": [
+            {
+                "category_name": "Data",
+                "tool_name": "Socialgrep",
+                "api_name": "Post search"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "Socialgrep",
+                "api_name": "Comment search"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Programming Memes Reddit",
+                "api_name": "Get All Memes"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Reddit",
+                "api_name": "Comments By Username"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Reddit",
+                "api_name": "Posts By Username"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Reddit",
+                "api_name": "Rising Popular Posts"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Check Username",
+                "api_name": "Check usernames on all Platforms"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Check Username",
+                "api_name": "Dockerhub"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Check Username",
+                "api_name": "Tumblr"
+            }
+        ]
+    },
+    {
+        "query": "I'm planning a company event and I want to create a fun and engaging atmosphere.",
+        "newplan": " Fetch the latest memes from the Programming Memes Reddit API and show me some rising popular posts from Reddit. Additionally, check if a specific username is available on all platforms using the Check Username API.",
+        "query_id": 6721,
+        "api_list": [
+            {
+                "category_name": "Data",
+                "tool_name": "Socialgrep",
+                "api_name": "Post search"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "Socialgrep",
+                "api_name": "Comment search"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Programming Memes Reddit",
+                "api_name": "Get All Memes"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Reddit",
+                "api_name": "Comments By Username"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Reddit",
+                "api_name": "Posts By Username"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Reddit",
+                "api_name": "Rising Popular Posts"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Check Username",
+                "api_name": "Check usernames on all Platforms"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Check Username",
+                "api_name": "Dockerhub"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Check Username",
+                "api_name": "Tumblr"
+            }
+        ]
+    },
+    {
+        "query": "I'm a software developer working on a project that requires IP geolocation.",
+        "newplan": " Can you fetch me the IP details for a given IP address, including the country, region, city, and latitude/longitude coordinates? Additionally, I need to obtain a new datacenter proxy for testing purposes.",
+        "query_id": 6773,
+        "api_list": [
+            {
+                "category_name": "Data",
+                "tool_name": "Proxy-Spider Proxies",
+                "api_name": "/proxies.example.json"
+            },
+            {
+                "category_name": "Commerce",
+                "tool_name": "IP2Proxy",
+                "api_name": "IP2Proxy API"
+            },
+            {
+                "category_name": "Tools",
+                "tool_name": "Ephemeral Proxies",
+                "api_name": "Check residential proxies service status"
+            },
+            {
+                "category_name": "Tools",
+                "tool_name": "Ephemeral Proxies",
+                "api_name": "Obtain a new datacenter proxy"
+            },
+            {
+                "category_name": "Tools",
+                "tool_name": "Ephemeral Proxies",
+                "api_name": "Get user's traffic balance"
+            }
+        ]
+    },
+    {
+        "query": "My family is planning a trip and we need to find reliable companies to book services from.",
+        "newplan": " Can you provide us with a list of companies and cases? Additionally, we'd like to search for the lyrics of 'Bad' by Michael Jackson.",
+        "query_id": 6826,
+        "api_list": [
+            {
+                "category_name": "Business",
+                "tool_name": "360 Business Tool",
+                "api_name": "GetCompanies"
+            },
+            {
+                "category_name": "Business",
+                "tool_name": "360 Business Tool",
+                "api_name": "GetCases"
+            },
+            {
+                "category_name": "Business",
+                "tool_name": "360 Business Tool",
+                "api_name": "GetCompaniesSince"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Chart Lyrics",
+                "api_name": "/apiv1.asmx/SearchLyricDirect?artist=michael%20jackson&song=bad"
+            }
+        ]
+    },
+    {
+        "query": "I recently moved to a new city and I'm looking for a good Italian restaurant.",
+        "newplan": " Can you suggest some popular Italian restaurants near my location? Additionally, I would like to know the elevation of my current location.",
+        "query_id": 6886,
+        "api_list": [
+            {
+                "category_name": "Data",
+                "tool_name": "Opencage geocoder",
+                "api_name": "/geocode/v1/json"
+            },
+            {
+                "category_name": "Location",
+                "tool_name": "Spott",
+                "api_name": "Search places"
+            },
+            {
+                "category_name": "Location",
+                "tool_name": "Spott",
+                "api_name": "Autocomplete places"
+            },
+            {
+                "category_name": "Location",
+                "tool_name": "Spott",
+                "api_name": "Get place by Geoname ID"
+            },
+            {
+                "category_name": "Mapping",
+                "tool_name": "MapToolkit",
+                "api_name": "Routing"
+            },
+            {
+                "category_name": "Mapping",
+                "tool_name": "MapToolkit",
+                "api_name": "Elevation"
+            },
+            {
+                "category_name": "Mapping",
+                "tool_name": "MapToolkit",
+                "api_name": "Planet & Contour Vectortiles"
+            },
+            {
+                "category_name": "Mapping",
+                "tool_name": "TrueWay Geocoding",
+                "api_name": "ReverseGeocode"
+            },
+            {
+                "category_name": "Mapping",
+                "tool_name": "TrueWay Geocoding",
+                "api_name": "Geocode"
+            },
+            {
+                "category_name": "Mapping",
+                "tool_name": "MapTiles",
+                "api_name": "getMapTilewithSpanishLabels"
+            },
+            {
+                "category_name": "Mapping",
+                "tool_name": "MapTiles",
+                "api_name": "getStandardMapTile"
+            },
+            {
+                "category_name": "Mapping",
+                "tool_name": "MapTiles",
+                "api_name": "getMapTilewithEnglishLabels"
+            }
+        ]
+    },
+    {
+        "query": "I'm a travel blogger, and I'm currently writing an article about the most extreme weather events in the United States.",
+        "newplan": " Can you provide me with the active weather alerts for all regions, areas, and zones in the country? Additionally, fetch me the current weather data for the location with coordinates (37.7749° N, 122.4194° W) to include in my article. Thank you!",
+        "query_id": 6911,
+        "api_list": [
+            {
+                "category_name": "Weather",
+                "tool_name": "National Weather Service",
+                "api_name": "/alerts/active/zone/{zoneId}"
+            },
+            {
+                "category_name": "Weather",
+                "tool_name": "National Weather Service",
+                "api_name": "/products/types/{typeId}/locations/{locationId}"
+            },
+            {
+                "category_name": "Weather",
+                "tool_name": "National Weather Service",
+                "api_name": "/alerts/active/count"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "Weather",
+                "api_name": "16 Day Forecast"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "Weather",
+                "api_name": "Current Weather Data of a location."
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "Weather",
+                "api_name": "120 Hour Forecast"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "Weather",
+                "api_name": "16 Day Forecast"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "Weather",
+                "api_name": "1 Hour / Minutely Forecast (Nowcast)"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "Weather",
+                "api_name": "Current Weather Data of a location."
+            }
+        ]
+    },
+    {
+        "query": "I'm planning a road trip across the country and I want to make sure I have clear skies and good air quality throughout the journey.",
+        "newplan": " Can you provide me with a 120-hour weather forecast for multiple cities along the route? Additionally, I'd like to know the air quality history for each city.",
+        "query_id": 6934,
+        "api_list": [
+            {
+                "category_name": "Data",
+                "tool_name": "Weather",
+                "api_name": "1 Hour / Minutely Forecast (Nowcast)"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "Weather",
+                "api_name": "120 Hour Forecast"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "Weather",
+                "api_name": "5 day Forecast"
+            },
+            {
+                "category_name": "Weather",
+                "tool_name": "Air Quality",
+                "api_name": "Air Quality History"
+            },
+            {
+                "category_name": "Weather",
+                "tool_name": "Air Quality",
+                "api_name": "Current Air Quality"
+            },
+            {
+                "category_name": "Weather",
+                "tool_name": "Air Quality",
+                "api_name": "Air Quality Forecast"
+            }
+        ]
+    },
+    {
+        "query": "I'm planning a hiking trip in the mountains and I need to check the weather conditions for the next 5 days.",
+        "newplan": " Can you provide me with a detailed 5-day weather forecast for the hiking location? Also, I'd like to check the air quality forecast for the same period.",
+        "query_id": 6940,
+        "api_list": [
+            {
+                "category_name": "Data",
+                "tool_name": "Weather",
+                "api_name": "1 Hour / Minutely Forecast (Nowcast)"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "Weather",
+                "api_name": "120 Hour Forecast"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "Weather",
+                "api_name": "5 day Forecast"
+            },
+            {
+                "category_name": "Weather",
+                "tool_name": "Air Quality",
+                "api_name": "Air Quality History"
+            },
+            {
+                "category_name": "Weather",
+                "tool_name": "Air Quality",
+                "api_name": "Current Air Quality"
+            },
+            {
+                "category_name": "Weather",
+                "tool_name": "Air Quality",
+                "api_name": "Air Quality Forecast"
+            }
+        ]
+    },
+    {
+        "query": "I'm organizing a family gathering and I want to make everyone laugh.",
+        "newplan": " Fetch me a random dad joke and a manatee joke to entertain my relatives. Also, find a funny programming meme to share with my tech-savvy cousins.",
+        "query_id": 7014,
+        "api_list": [
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Programming Memes Images",
+                "api_name": "v1/memes"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "World of Jokes",
+                "api_name": "Get Joke of the Day"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "World of Jokes",
+                "api_name": "Get Categories of Jokes"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "World of Jokes",
+                "api_name": "Get Random Joke By Category"
+            },
+            {
+                "category_name": "Science",
+                "tool_name": "manatee jokes",
+                "api_name": "random"
+            },
+            {
+                "category_name": "Science",
+                "tool_name": "manatee jokes",
+                "api_name": "get by id"
+            },
+            {
+                "category_name": "Science",
+                "tool_name": "manatee jokes",
+                "api_name": "find all"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "DaddyJokes",
+                "api_name": "Random"
+            }
+        ]
+    },
+    {
+        "query": "I'm organizing a charity event and I want to include some humor in the program.",
+        "newplan": " Can you provide me with a specific manatee joke by its ID? Also, recommend some funny skits or performances to entertain the audience.",
+        "query_id": 7058,
+        "api_list": [
+            {
+                "category_name": "Social",
+                "tool_name": "Chuck Norris",
+                "api_name": "/jokes/random"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Chuck Norris",
+                "api_name": "/jokes/search"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Chuck Norris",
+                "api_name": "/jokes/categories"
+            },
+            {
+                "category_name": "Science",
+                "tool_name": "manatee jokes",
+                "api_name": "get by id"
+            },
+            {
+                "category_name": "Science",
+                "tool_name": "manatee jokes",
+                "api_name": "find all"
+            },
+            {
+                "category_name": "Science",
+                "tool_name": "manatee jokes",
+                "api_name": "random"
+            }
+        ]
+    },
+    {
+        "query": "I'm organizing a comedy night at my local community center and I need some jokes to entertain the audience.",
+        "newplan": " Can you recommend some funny jokes about animals? Also, suggest some local comedians who can perform at the event.",
+        "query_id": 7062,
+        "api_list": [
+            {
+                "category_name": "Social",
+                "tool_name": "Chuck Norris",
+                "api_name": "/jokes/random"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Chuck Norris",
+                "api_name": "/jokes/search"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Chuck Norris",
+                "api_name": "/jokes/categories"
+            },
+            {
+                "category_name": "Science",
+                "tool_name": "manatee jokes",
+                "api_name": "get by id"
+            },
+            {
+                "category_name": "Science",
+                "tool_name": "manatee jokes",
+                "api_name": "find all"
+            },
+            {
+                "category_name": "Science",
+                "tool_name": "manatee jokes",
+                "api_name": "random"
+            }
+        ]
+    },
+    {
+        "query": "I'm feeling a bit down and need a good laugh.",
+        "newplan": " Can you find me a hilarious programming meme and a funny manatee joke to brighten up my day?",
+        "query_id": 7095,
+        "api_list": [
+            {
+                "category_name": "Science",
+                "tool_name": "manatee jokes",
+                "api_name": "find all"
+            },
+            {
+                "category_name": "Science",
+                "tool_name": "manatee jokes",
+                "api_name": "get by id"
+            },
+            {
+                "category_name": "Science",
+                "tool_name": "manatee jokes",
+                "api_name": "random"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Programming Memes Images",
+                "api_name": "v1/memes"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Memeados",
+                "api_name": "Google Fake Autocomplete"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Memeados",
+                "api_name": "drakelikehate"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Memeados",
+                "api_name": "Pet Pet"
+            }
+        ]
+    },
+    {
+        "query": "I'm organizing a Hearthstone tournament and I need a comprehensive list of all available cards.",
+        "newplan": " Can you fetch me the complete collection of Hearthstone cards? Additionally, find the stats for my World of Tanks account named PasiHD to see my progress.",
+        "query_id": 7161,
+        "api_list": [
+            {
+                "category_name": "Gaming",
+                "tool_name": "World of Tanks Stats",
+                "api_name": "Get Stats"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Hearthstone",
+                "api_name": "Single Card"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Hearthstone",
+                "api_name": "All Cards"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Hearthstone",
+                "api_name": "Cards by Race"
+            }
+        ]
+    },
+    {
+        "query": "I'm organizing a surprise birthday party for my mom and I want to make it extra special.",
+        "newplan": " Can you suggest some cocktail recipes that I can prepare for the party? Also, provide me with a playlist of her favorite songs to create a nostalgic ambiance. Additionally, find a nearby venue with a beautiful garden for the party.",
+        "query_id": 7311,
+        "api_list": [
+            {
+                "category_name": "Finance",
+                "tool_name": "BraveNewCoin",
+                "api_name": "MarketById"
+            },
+            {
+                "category_name": "Finance",
+                "tool_name": "BraveNewCoin",
+                "api_name": "AssetTicker"
+            },
+            {
+                "category_name": "Finance",
+                "tool_name": "BraveNewCoin",
+                "api_name": "DailyOHLCV"
+            },
+            {
+                "category_name": "Food",
+                "tool_name": "The Cocktail DB",
+                "api_name": "Detailed Cocktail Recipe by ID"
+            },
+            {
+                "category_name": "Food",
+                "tool_name": "The Cocktail DB",
+                "api_name": "List of Cocktails"
+            },
+            {
+                "category_name": "Music",
+                "tool_name": "Shazam",
+                "api_name": "charts/track"
+            },
+            {
+                "category_name": "Music",
+                "tool_name": "Shazam",
+                "api_name": "search"
+            },
+            {
+                "category_name": "Music",
+                "tool_name": "Shazam",
+                "api_name": "auto-complete"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "GeoDB Cities",
+                "api_name": "Place Distance"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "GeoDB Cities",
+                "api_name": "Currencies"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "GeoDB Cities",
+                "api_name": "Countries"
+            }
+        ]
+    },
+    {
+        "query": "I'm organizing a science-themed event for kids and need some jokes related to marine life to entertain them.",
+        "newplan": " Can you fetch all the available manatee jokes? Also, provide a random quote to inspire the young minds.",
+        "query_id": 7480,
+        "api_list": [
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Jokes by API-Ninjas",
+                "api_name": "/v1/jokes"
+            },
+            {
+                "category_name": "Education",
+                "tool_name": "Quotes",
+                "api_name": "quote"
+            },
+            {
+                "category_name": "Science",
+                "tool_name": "manatee jokes",
+                "api_name": "get by id"
+            },
+            {
+                "category_name": "Science",
+                "tool_name": "manatee jokes",
+                "api_name": "random"
+            },
+            {
+                "category_name": "Science",
+                "tool_name": "manatee jokes",
+                "api_name": "find all"
+            }
+        ]
+    },
+    {
+        "query": "I'm planning a surprise birthday party for my best friend and I want to organize a horse racing-themed event.",
+        "newplan": " Can you find me a race happening on their birthday and provide me with the race details? It would also be helpful to have a list of nearby venues where we can host the party.",
+        "query_id": 7546,
+        "api_list": [
+            {
+                "category_name": "Sports",
+                "tool_name": "Horse Racing",
+                "api_name": "Query races"
+            },
+            {
+                "category_name": "Sports",
+                "tool_name": "Horse Racing",
+                "api_name": "Racecards"
+            },
+            {
+                "category_name": "Sports",
+                "tool_name": "Horse Racing",
+                "api_name": "Race detail info"
+            },
+            {
+                "category_name": "Mapping",
+                "tool_name": "Places",
+                "api_name": "Places list by radius (Nearby Search) "
+            },
+            {
+                "category_name": "Mapping",
+                "tool_name": "Places",
+                "api_name": "Autosuggest"
+            },
+            {
+                "category_name": "Mapping",
+                "tool_name": "Places",
+                "api_name": "Geographic coordinates by placename"
+            }
+        ]
+    },
+    {
+        "query": "I'm planning a weekend getaway with my family and I need to know the weather conditions and any active alerts for the destination.",
+        "newplan": " Fetch the current weather data and the list of active alerts for the location. Also, provide the 16-day forecast for the area.",
+        "query_id": 7589,
+        "api_list": [
+            {
+                "category_name": "Weather",
+                "tool_name": "National Weather Service",
+                "api_name": "/alerts/active"
+            },
+            {
+                "category_name": "Weather",
+                "tool_name": "National Weather Service",
+                "api_name": "/alerts?{parameters}"
+            },
+            {
+                "category_name": "Weather",
+                "tool_name": "National Weather Service",
+                "api_name": "/products/types/{typeId}/locations"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "Weather",
+                "api_name": "1 Hour / Minutely Forecast (Nowcast)"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "Weather",
+                "api_name": "Current Weather Data of a location."
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "Weather",
+                "api_name": "16 Day Forecast"
+            }
+        ]
+    },
+    {
+        "query": "My company is organizing a promotional event and we need to verify the email addresses of the attendees.",
+        "newplan": " Can you verify the email addresses and provide us with the validation results? Additionally, we would like to know the account information for our Blaze Verify API.",
+        "query_id": 7612,
+        "api_list": [
+            {
+                "category_name": "Tools",
+                "tool_name": "mailboxlayer",
+                "api_name": "Validate email address"
+            },
+            {
+                "category_name": "Email",
+                "tool_name": "Blaze Verify",
+                "api_name": "Get the status of a batch"
+            },
+            {
+                "category_name": "Email",
+                "tool_name": "Blaze Verify",
+                "api_name": "Verify an email"
+            },
+            {
+                "category_name": "Email",
+                "tool_name": "Blaze Verify",
+                "api_name": "Get account info"
+            }
+        ]
+    },
+    {
+        "query": "I'm a nutritionist and I need to analyze the nutritional content of different foods.",
+        "newplan": " Can you fetch the nutritional analysis for a variety of ingredients? Additionally, provide me with the guidelines for special dietary needs and allergen labels.",
+        "query_id": 7682,
+        "api_list": [
+            {
+                "category_name": "Science",
+                "tool_name": "CarbonFootprint",
+                "api_name": "CleanHydroToCarbonFootprint"
+            },
+            {
+                "category_name": "Science",
+                "tool_name": "CarbonFootprint",
+                "api_name": "TreeEquivalent"
+            },
+            {
+                "category_name": "Science",
+                "tool_name": "CarbonFootprint",
+                "api_name": "CarbonFootprintFromCarTravel"
+            },
+            {
+                "category_name": "Medical",
+                "tool_name": "GetGuidelines",
+                "api_name": "all"
+            },
+            {
+                "category_name": "Medical",
+                "tool_name": "GetGuidelines",
+                "api_name": "vac"
+            },
+            {
+                "category_name": "Food",
+                "tool_name": "Edamam Nutrition Analysis",
+                "api_name": "/api/nutrition-data"
+            }
+        ]
+    },
+    {
+        "query": "I'm organizing a health seminar and I need a comprehensive list of medical guidelines.",
+        "newplan": " Can you provide me with all the guidelines available? Additionally, fetch the carbon footprint of traveling 400 km on a medium motorbike.",
+        "query_id": 7721,
+        "api_list": [
+            {
+                "category_name": "Medical",
+                "tool_name": "GetGuidelines",
+                "api_name": "vac"
+            },
+            {
+                "category_name": "Medical",
+                "tool_name": "GetGuidelines",
+                "api_name": "all"
+            },
+            {
+                "category_name": "Business",
+                "tool_name": "Healthcaremailing",
+                "api_name": "Healthcare mailing"
+            },
+            {
+                "category_name": "Food",
+                "tool_name": "Edamam Nutrition Analysis",
+                "api_name": "/api/nutrition-data"
+            },
+            {
+                "category_name": "Business",
+                "tool_name": "Lake B2B",
+                "api_name": "Email Marketing"
+            },
+            {
+                "category_name": "Science",
+                "tool_name": "CarbonFootprint",
+                "api_name": "CleanHydroToCarbonFootprint"
+            },
+            {
+                "category_name": "Science",
+                "tool_name": "CarbonFootprint",
+                "api_name": "CarbonFootprintFromMotorBike"
+            },
+            {
+                "category_name": "Science",
+                "tool_name": "CarbonFootprint",
+                "api_name": "FuelToCO2e"
+            }
+        ]
+    },
+    {
+        "query": "I need the exchange rate from EUR to GBP.",
+        "newplan": " Additionally, retrieve a comment from Deezer with the id '5555' and a trivia fact about the year 2022.",
+        "query_id": 7824,
+        "api_list": [
+            {
+                "category_name": "Data",
+                "tool_name": "Currency Exchange",
+                "api_name": "listquotes"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "Currency Exchange",
+                "api_name": "exchange"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Deezer",
+                "api_name": "Editorial"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Deezer",
+                "api_name": "Comment"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Deezer",
+                "api_name": "Playlist"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Chuck Norris",
+                "api_name": "/jokes/categories"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Chuck Norris",
+                "api_name": "/jokes/search"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Chuck Norris",
+                "api_name": "/jokes/random"
+            },
+            {
+                "category_name": "Education",
+                "tool_name": "Numbers",
+                "api_name": "Get trivia fact"
+            },
+            {
+                "category_name": "Education",
+                "tool_name": "Numbers",
+                "api_name": "Get year fact"
+            },
+            {
+                "category_name": "Education",
+                "tool_name": "Numbers",
+                "api_name": "Get math fact"
+            }
+        ]
+    },
+    {
+        "query": "I'm planning a surprise party for my best friend's birthday.",
+        "newplan": " Can you suggest some funny Chuck Norris jokes to include in the party decorations? Also, I need to calculate the love percentage between my friend and their partner to add a romantic touch to the event. Additionally, can you recommend a playlist from Deezer to set the mood for the party?",
+        "query_id": 7846,
+        "api_list": [
+            {
+                "category_name": "Social",
+                "tool_name": "Chuck Norris",
+                "api_name": "/jokes/search"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Chuck Norris",
+                "api_name": "/jokes/categories"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Chuck Norris",
+                "api_name": "/jokes/random"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "Currency Exchange",
+                "api_name": "exchange"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "Currency Exchange",
+                "api_name": "listquotes"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Deezer",
+                "api_name": "Playlist"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Deezer",
+                "api_name": "Comment"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Deezer",
+                "api_name": "Genre"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Love Calculator",
+                "api_name": "getPercentage"
+            },
+            {
+                "category_name": "Sports",
+                "tool_name": "Free NBA",
+                "api_name": "Get a Specific Team"
+            },
+            {
+                "category_name": "Sports",
+                "tool_name": "Free NBA",
+                "api_name": "Get a Specific Game"
+            },
+            {
+                "category_name": "Sports",
+                "tool_name": "Free NBA",
+                "api_name": "Get All Players"
+            }
+        ]
+    },
+    {
+        "query": "I'm planning a family trip to Europe and I need to exchange some currency.",
+        "newplan": " Can you provide me with the current exchange rate from USD to EUR? Also, I'd like to search for the top tracks by Eminem.",
+        "query_id": 7873,
+        "api_list": [
+            {
+                "category_name": "Data",
+                "tool_name": "Currency Exchange",
+                "api_name": "listquotes"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "Currency Exchange",
+                "api_name": "exchange"
+            },
+            {
+                "category_name": "Education",
+                "tool_name": "Numbers",
+                "api_name": "Get trivia fact"
+            },
+            {
+                "category_name": "Education",
+                "tool_name": "Numbers",
+                "api_name": "Get math fact"
+            },
+            {
+                "category_name": "Education",
+                "tool_name": "Numbers",
+                "api_name": "Get year fact"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Love Calculator",
+                "api_name": "getPercentage"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Deezer",
+                "api_name": "Genre"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Deezer",
+                "api_name": "* Search"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Deezer",
+                "api_name": "Album"
+            },
+            {
+                "category_name": "Sports",
+                "tool_name": "Free NBA",
+                "api_name": "Get Specific Player"
+            },
+            {
+                "category_name": "Sports",
+                "tool_name": "Free NBA",
+                "api_name": "Get All Games"
+            },
+            {
+                "category_name": "Sports",
+                "tool_name": "Free NBA",
+                "api_name": "Get All Stats"
+            }
+        ]
+    },
+    {
+        "query": "I'm planning a surprise birthday party for my best friend and I want to create a playlist of his favorite tracks.",
+        "newplan": " Can you recommend some popular artists and tracks from Deezer that he likes? Also, provide me with a random fact about a specific player from the NBA.",
+        "query_id": 7940,
+        "api_list": [
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Deezer",
+                "api_name": "Artist"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Deezer",
+                "api_name": "* Search"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Deezer",
+                "api_name": "Genre"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Love Calculator",
+                "api_name": "getPercentage"
+            },
+            {
+                "category_name": "Education",
+                "tool_name": "Numbers",
+                "api_name": "Get random fact"
+            },
+            {
+                "category_name": "Education",
+                "tool_name": "Numbers",
+                "api_name": "Get date fact"
+            },
+            {
+                "category_name": "Education",
+                "tool_name": "Numbers",
+                "api_name": "Get trivia fact"
+            },
+            {
+                "category_name": "Sports",
+                "tool_name": "Free NBA",
+                "api_name": "Get Specific Player"
+            },
+            {
+                "category_name": "Sports",
+                "tool_name": "Free NBA",
+                "api_name": "Get All Players"
+            },
+            {
+                "category_name": "Sports",
+                "tool_name": "Free NBA",
+                "api_name": "Get a Specific Game"
+            }
+        ]
+    },
+    {
+        "query": "Can you help me find some interesting facts about superheroes? I'm particularly interested in their appearances, powers, and connections.",
+        "newplan": " Also, I'd like to know if there are any famous quotes by superheroes like Spiderman or Batman.",
+        "query_id": 8198,
+        "api_list": [
+            {
+                "category_name": "Social",
+                "tool_name": "Tronald Dump",
+                "api_name": "/tag/{tag}"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Tronald Dump",
+                "api_name": "/random/quote"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Tronald Dump",
+                "api_name": "Quote"
+            },
+            {
+                "category_name": "Search",
+                "tool_name": "SuperHero Search",
+                "api_name": "Search"
+            },
+            {
+                "category_name": "Search",
+                "tool_name": "SuperHero Search",
+                "api_name": "Villains"
+            },
+            {
+                "category_name": "Search",
+                "tool_name": "SuperHero Search",
+                "api_name": "Heroes"
+            },
+            {
+                "category_name": "Education",
+                "tool_name": "Numbers",
+                "api_name": "Get random fact"
+            },
+            {
+                "category_name": "Education",
+                "tool_name": "Numbers",
+                "api_name": "Get year fact"
+            },
+            {
+                "category_name": "Education",
+                "tool_name": "Numbers",
+                "api_name": "Get math fact"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Chuck Norris",
+                "api_name": "/jokes/random"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Chuck Norris",
+                "api_name": "/jokes/search"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Chuck Norris",
+                "api_name": "/jokes/categories"
+            }
+        ]
+    },
+    {
+        "query": "I want to surprise my family with a cryptocurrency-themed treasure hunt.",
+        "newplan": " Can you fetch the latest details for an asset using the BraveNewCoin API? It would be great if you could also provide me with the outcome of a coin flip using the Coin Flip API to determine the starting point of the treasure hunt.",
+        "query_id": 8320,
+        "api_list": [
+            {
+                "category_name": "Finance",
+                "tool_name": "Coinranking",
+                "api_name": "Get global stats"
+            },
+            {
+                "category_name": "Finance",
+                "tool_name": "Coinranking",
+                "api_name": "Get coin OHLC data"
+            },
+            {
+                "category_name": "Finance",
+                "tool_name": "Coinranking",
+                "api_name": "Get exchange markets"
+            },
+            {
+                "category_name": "Finance",
+                "tool_name": "BraveNewCoin",
+                "api_name": "AssetById"
+            },
+            {
+                "category_name": "Finance",
+                "tool_name": "BraveNewCoin",
+                "api_name": "DailyOHLCV"
+            },
+            {
+                "category_name": "Finance",
+                "tool_name": "BraveNewCoin",
+                "api_name": "AssetTicker"
+            },
+            {
+                "category_name": "Financial",
+                "tool_name": "CurrencyAPI.net",
+                "api_name": "Currencies"
+            },
+            {
+                "category_name": "Financial",
+                "tool_name": "CurrencyAPI.net",
+                "api_name": "Timeframe"
+            },
+            {
+                "category_name": "Financial",
+                "tool_name": "CurrencyAPI.net",
+                "api_name": "History"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Coin Flip",
+                "api_name": "Heads / Tails"
+            }
+        ]
+    },
+    {
+        "query": "I'm a music enthusiast and I'm looking for new songs to add to my playlist.",
+        "newplan": " Can you suggest the top tracks of various artists across different genres? It would be awesome if you could also provide me with random quotes related to music.",
+        "query_id": 8416,
+        "api_list": [
+            {
+                "category_name": "Music",
+                "tool_name": "Shazam",
+                "api_name": "songs/list-artist-top-tracks (Deprecated)"
+            },
+            {
+                "category_name": "Music",
+                "tool_name": "Shazam",
+                "api_name": "songs/get-related-artist"
+            },
+            {
+                "category_name": "Music",
+                "tool_name": "Shazam",
+                "api_name": "songs/v2/get-details"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Chart Lyrics",
+                "api_name": "/apiv1.asmx/SearchLyricDirect?artist=michael%20jackson&song=bad"
+            }
+        ]
+    },
+    {
+        "query": "I want to create a relaxing playlist for my yoga session.",
+        "newplan": " Can you suggest some calming tracks from Soundcloud? Also, fetch the album details of one of the recommended songs using Deezer.",
+        "query_id": 8455,
+        "api_list": [
+            {
+                "category_name": "Social",
+                "tool_name": "Soundcloud",
+                "api_name": "/song/download"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Soundcloud",
+                "api_name": "/search"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Soundcloud",
+                "api_name": "/playlist/info"
+            },
+            {
+                "category_name": "Music",
+                "tool_name": "Shazam",
+                "api_name": "songs/list-artist-top-tracks (Deprecated)"
+            },
+            {
+                "category_name": "Music",
+                "tool_name": "Shazam",
+                "api_name": "charts/track"
+            },
+            {
+                "category_name": "Music",
+                "tool_name": "Shazam",
+                "api_name": "artists/get-latest-release"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Deezer",
+                "api_name": "Editorial"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Deezer",
+                "api_name": "Album"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Deezer",
+                "api_name": "Infos"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "SongMeanings",
+                "api_name": "lyrics.get"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "SongMeanings",
+                "api_name": "songs.search"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "SongMeanings",
+                "api_name": "users.favorite.get"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Chart Lyrics",
+                "api_name": "/apiv1.asmx/SearchLyricDirect?artist=michael%20jackson&song=bad"
+            }
+        ]
+    },
+    {
+        "query": "I am planning a family gathering in my backyard and would like to have some games and activities to keep everyone entertained.",
+        "newplan": " Can you suggest some fun outdoor games and provide me with the instructions on how to play? Additionally, I would appreciate it if you could recommend some delicious recipes for a barbecue party. Lastly, I need to know the current weather forecast for tomorrow to ensure a perfect day for our gathering.",
+        "query_id": 8478,
+        "api_list": [
+            {
+                "category_name": "Weather",
+                "tool_name": "Plant Hardiness Zone",
+                "api_name": "Retrieve the Hardiness Zone"
+            },
+            {
+                "category_name": "Food",
+                "tool_name": "Yummly",
+                "api_name": "categories/list"
+            },
+            {
+                "category_name": "Food",
+                "tool_name": "Yummly",
+                "api_name": "feeds/list-similarities"
+            },
+            {
+                "category_name": "Food",
+                "tool_name": "Yummly",
+                "api_name": "tags/list"
+            }
+        ]
+    },
+    {
+        "query": "I want to surprise my friend with a unique gift for their graduation.",
+        "newplan": " Can you flip a coin and let me know if it's heads or tails? Additionally, I need the details and status of the asset with the UUID 'f1ff77b6-3ab4-4719-9ded-2fc7e71cff1f' to determine its value as a gift.",
+        "query_id": 8627,
+        "api_list": [
+            {
+                "category_name": "Finance",
+                "tool_name": "Coinmill Currency",
+                "api_name": "Coinmill"
+            },
+            {
+                "category_name": "Finance",
+                "tool_name": "BraveNewCoin",
+                "api_name": "AssetById"
+            },
+            {
+                "category_name": "Finance",
+                "tool_name": "BraveNewCoin",
+                "api_name": "Asset"
+            },
+            {
+                "category_name": "Finance",
+                "tool_name": "BraveNewCoin",
+                "api_name": "Market"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Coin Flip",
+                "api_name": "Heads / Tails"
+            },
+            {
+                "category_name": "Finance",
+                "tool_name": "Coinranking",
+                "api_name": "Get coin modifiers"
+            },
+            {
+                "category_name": "Finance",
+                "tool_name": "Coinranking",
+                "api_name": "Get coin price history"
+            },
+            {
+                "category_name": "Finance",
+                "tool_name": "Coinranking",
+                "api_name": "Get coin price"
+            }
+        ]
+    },
+    {
+        "query": "I'm a photographer and I'm searching for webcams that capture breathtaking sunsets.",
+        "newplan": " Can you recommend some webcams in coastal areas known for their stunning sunset views? Additionally, I would like to see a map tile with French labels to inspire my photography.",
+        "query_id": 8681,
+        "api_list": [
+            {
+                "category_name": "Travel",
+                "tool_name": "webcams.travel",
+                "api_name": "/webcams/list/limit={limit},{offset}"
+            },
+            {
+                "category_name": "Travel",
+                "tool_name": "webcams.travel",
+                "api_name": "/webcams/list/category={category}[,{category}[,...]]"
+            },
+            {
+                "category_name": "Travel",
+                "tool_name": "webcams.travel",
+                "api_name": "/webcams/list/orderby={order},{sort}"
+            },
+            {
+                "category_name": "Mapping",
+                "tool_name": "MapTiles",
+                "api_name": "getStandardMapTile"
+            },
+            {
+                "category_name": "Mapping",
+                "tool_name": "MapTiles",
+                "api_name": "getMapTilewithEnglishLabels"
+            },
+            {
+                "category_name": "Mapping",
+                "tool_name": "MapTiles",
+                "api_name": "getMapTilewithFrenchLabels"
+            }
+        ]
+    },
+    {
+        "query": "I'm looking for interesting content for my blog.",
+        "newplan": " Can you provide me with random quotes from different categories and a few WikiHow steps to share with my readers?",
+        "query_id": 8738,
+        "api_list": [
+            {
+                "category_name": "Tools",
+                "tool_name": "Famous  Quotes",
+                "api_name": "List Categories"
+            },
+            {
+                "category_name": "Tools",
+                "tool_name": "Famous  Quotes",
+                "api_name": "Get Random Quotes"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "WikiHow",
+                "api_name": "Images"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "WikiHow",
+                "api_name": "Steps"
+            }
+        ]
+    },
+    {
+        "query": "I would like to compare the exponential moving averages of multiple stocks.",
+        "newplan": " Fetch the 24-hour trading data for various markets to identify potential investment opportunities. Also, provide me with the balance sheet of NVIDIA Corporation to assess their financial performance.",
+        "query_id": 8803,
+        "api_list": [
+            {
+                "category_name": "Finance",
+                "tool_name": "Twelve Data",
+                "api_name": "Balance Sheet"
+            },
+            {
+                "category_name": "Finance",
+                "tool_name": "Twelve Data",
+                "api_name": "HT_DCPERIOD"
+            },
+            {
+                "category_name": "Finance",
+                "tool_name": "Twelve Data",
+                "api_name": "EMA"
+            },
+            {
+                "category_name": "Financial",
+                "tool_name": "QuantaEx Market Data",
+                "api_name": "24 Hours Tickers"
+            }
+        ]
+    },
+    {
+        "query": "I want to surprise my coworkers with interesting trivia facts and jokes during our team meeting.",
+        "newplan": " Can you provide me with random trivia facts about numbers? Also, fetch some chuck jokes to add humor to the meeting. Finally, recommend a game level for our music trivia contest.",
+        "query_id": 8892,
+        "api_list": [
+            {
+                "category_name": "Social",
+                "tool_name": "Chuck Norris",
+                "api_name": "/jokes/random"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Chuck Norris",
+                "api_name": "/jokes/search"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Chuck Norris",
+                "api_name": "/jokes/categories"
+            },
+            {
+                "category_name": "Gaming",
+                "tool_name": "Trivia by API-Ninjas",
+                "api_name": "/v1/trivia"
+            },
+            {
+                "category_name": "Media",
+                "tool_name": "Music Trivia",
+                "api_name": "/getgamelevel"
+            },
+            {
+                "category_name": "Education",
+                "tool_name": "Numbers",
+                "api_name": "Get math fact"
+            },
+            {
+                "category_name": "Education",
+                "tool_name": "Numbers",
+                "api_name": "Get trivia fact"
+            },
+            {
+                "category_name": "Education",
+                "tool_name": "Numbers",
+                "api_name": "Get random fact"
+            }
+        ]
+    },
+    {
+        "query": "I'm planning a family vacation in Paris next month and I want to make sure we have a great time.",
+        "newplan": " Can you provide me with a list of interesting listings on Etsy that are related to Paris? Additionally, I would like to know the categories of products available on H&M's website in France. Finally, could you recommend some popular tourist attractions in Paris?",
+        "query_id": 8970,
+        "api_list": [
+            {
+                "category_name": "eCommerce",
+                "tool_name": "HM - Hennes Mauritz",
+                "api_name": "categories/list"
+            },
+            {
+                "category_name": "eCommerce",
+                "tool_name": "HM - Hennes Mauritz",
+                "api_name": "regions/list"
+            },
+            {
+                "category_name": "eCommerce",
+                "tool_name": "HM - Hennes Mauritz",
+                "api_name": "products/search-by-barcode"
+            },
+            {
+                "category_name": "Commerce",
+                "tool_name": "Etsy",
+                "api_name": "findAllListingActive"
+            },
+            {
+                "category_name": "Commerce",
+                "tool_name": "Etsy",
+                "api_name": "getInterestingListings"
+            },
+            {
+                "category_name": "Commerce",
+                "tool_name": "Etsy",
+                "api_name": "getTrendingListings"
+            }
+        ]
+    },
+    {
+        "query": "I'm a music enthusiast and I want to explore the greatest adult pop songs of all time.",
+        "newplan": " Can you provide me with the chart information and the genre details of these songs? Also, fetch the song details and comments for the top 10 songs on the Billboard Global 200 chart from last year.",
+        "query_id": 9052,
+        "api_list": [
+            {
+                "category_name": "Music",
+                "tool_name": "View Song",
+                "api_name": "View song_copy"
+            },
+            {
+                "category_name": "Music",
+                "tool_name": "View Song",
+                "api_name": "View song"
+            },
+            {
+                "category_name": "Music",
+                "tool_name": "Billboard-API",
+                "api_name": "Billboard Global 200 (YEAR-END)"
+            },
+            {
+                "category_name": "Music",
+                "tool_name": "Billboard-API",
+                "api_name": "Hot 100 Songs (Greatest of All Time)"
+            },
+            {
+                "category_name": "Music",
+                "tool_name": "Billboard-API",
+                "api_name": "Adult Pop Songs"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Deezer",
+                "api_name": "Genre"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Deezer",
+                "api_name": "Comment"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Deezer",
+                "api_name": "Infos"
+            }
+        ]
+    },
+    {
+        "query": "I'm planning a road trip with my friends and we're looking for some good music to listen to.",
+        "newplan": " Can you suggest some popular tracks from Soundcloud that we can download? Also, recommend some artists from Deezer that we can add to our playlist.",
+        "query_id": 9064,
+        "api_list": [
+            {
+                "category_name": "Social",
+                "tool_name": "Soundcloud",
+                "api_name": "/user/info"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Soundcloud",
+                "api_name": "/search"
+            },
+            {
+                "category_name": "Social",
+                "tool_name": "Soundcloud",
+                "api_name": "/song/download"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Deezer",
+                "api_name": "Artist"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Deezer",
+                "api_name": "Comment"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Deezer",
+                "api_name": "Editorial"
+            }
+        ]
+    },
+    {
+        "query": "I'm a music blogger and I need to gather information about the top artists in different genres.",
+        "newplan": " Can you provide me with the Greatest of All Time Adult Alternative Artists and Greatest of All Time Adult Pop Songs Artists chart information? Also, fetch the track details of a specific song with the ID 'ttEleQJoxgCuNOIbUuRh7Q==' for me.",
+        "query_id": 9085,
+        "api_list": [
+            {
+                "category_name": "Music",
+                "tool_name": "View Song",
+                "api_name": "View song"
+            },
+            {
+                "category_name": "Music",
+                "tool_name": "View Song",
+                "api_name": "View song_copy"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Deezer",
+                "api_name": "* Search"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Deezer",
+                "api_name": "Comment"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Deezer",
+                "api_name": "Track"
+            },
+            {
+                "category_name": "Music",
+                "tool_name": "Billboard-API",
+                "api_name": "Australia Songs"
+            },
+            {
+                "category_name": "Music",
+                "tool_name": "Billboard-API",
+                "api_name": "Adult Alternative Artists"
+            },
+            {
+                "category_name": "Music",
+                "tool_name": "Billboard-API",
+                "api_name": "Adult Pop Songs Artists"
+            }
+        ]
+    },
+    {
+        "query": "I'm writing a humorous article and I need some jokes to include.",
+        "newplan": " Can you provide me with a random joke, a dad joke, and a manatee joke to add some humor to my writing? Additionally, fetch the joke of the day to include in the article.",
+        "query_id": 9594,
+        "api_list": [
+            {
+                "category_name": "Entertainment",
+                "tool_name": "World of Jokes",
+                "api_name": "Get Random Joke"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "World of Jokes",
+                "api_name": "Get Joke of the Day By Category"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "World of Jokes",
+                "api_name": "Get Joke of the Day"
+            },
+            {
+                "category_name": "Science",
+                "tool_name": "manatee jokes",
+                "api_name": "random"
+            },
+            {
+                "category_name": "Science",
+                "tool_name": "manatee jokes",
+                "api_name": "find all"
+            },
+            {
+                "category_name": "Science",
+                "tool_name": "manatee jokes",
+                "api_name": "get by id"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Jokes by API-Ninjas",
+                "api_name": "/v1/jokes"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "DaddyJokes",
+                "api_name": "Random"
+            }
+        ]
+    },
+    {
+        "query": "Help me find the details of an NBA game that took place on October 5, 2023.",
+        "newplan": " Also, provide me with the current date and time in San Francisco. Additionally, find all the available sports and tournaments using the Live Sports Odds API.",
+        "query_id": 9711,
+        "api_list": [
+            {
+                "category_name": "Sports",
+                "tool_name": "Free NBA",
+                "api_name": "Get a Specific Game"
+            },
+            {
+                "category_name": "Sports",
+                "tool_name": "Free NBA",
+                "api_name": "Get Specific Player"
+            },
+            {
+                "category_name": "Sports",
+                "tool_name": "Free NBA",
+                "api_name": "Get All Players"
+            },
+            {
+                "category_name": "Finance",
+                "tool_name": "BraveNewCoin",
+                "api_name": "Market"
+            },
+            {
+                "category_name": "Finance",
+                "tool_name": "BraveNewCoin",
+                "api_name": "Asset"
+            },
+            {
+                "category_name": "Finance",
+                "tool_name": "BraveNewCoin",
+                "api_name": "MarketById"
+            },
+            {
+                "category_name": "Sports",
+                "tool_name": "Live Sports Odds",
+                "api_name": "/v4/sports/{sport}/scores"
+            },
+            {
+                "category_name": "Sports",
+                "tool_name": "Live Sports Odds",
+                "api_name": "/v4/sports/{sport}/odds"
+            },
+            {
+                "category_name": "Sports",
+                "tool_name": "Live Sports Odds",
+                "api_name": "/v4/sports"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "GeoDB Cities",
+                "api_name": "Currencies"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "GeoDB Cities",
+                "api_name": "City Date-Time"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "GeoDB Cities",
+                "api_name": "Cities"
+            }
+        ]
+    },
+    {
+        "query": "I'm a sports blogger and I want to write an article about upcoming sports events.",
+        "newplan": " Can you provide me with the upcoming games and odds for popular sports? Additionally, I would like to include some cocktail recipes in the article. Can you suggest some interesting cocktail recipes?",
+        "query_id": 9748,
+        "api_list": [
+            {
+                "category_name": "Sports",
+                "tool_name": "Live Sports Odds",
+                "api_name": "/v4/sports/{sport}/odds"
+            },
+            {
+                "category_name": "Sports",
+                "tool_name": "Live Sports Odds",
+                "api_name": "/v4/sports/{sport}/scores"
+            },
+            {
+                "category_name": "Sports",
+                "tool_name": "Live Sports Odds",
+                "api_name": "/v4/sports"
+            },
+            {
+                "category_name": "Food",
+                "tool_name": "The Cocktail DB",
+                "api_name": "List of Cocktails"
+            },
+            {
+                "category_name": "Food",
+                "tool_name": "The Cocktail DB",
+                "api_name": "Detailed Cocktail Recipe by ID"
+            }
+        ]
+    },
+    {
+        "query": "I'm a teacher planning a science fair for my students, and I want to make it educational and entertaining.",
+        "newplan": " Can you provide me with interesting manatee jokes to include in the event program? Also, fetch random quotes to inspire the students and encourage their scientific curiosity.",
+        "query_id": 9925,
+        "api_list": [
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Jokes by API-Ninjas",
+                "api_name": "/v1/jokes"
+            },
+            {
+                "category_name": "Education",
+                "tool_name": "Quotes",
+                "api_name": "quote"
+            },
+            {
+                "category_name": "Science",
+                "tool_name": "manatee jokes",
+                "api_name": "find all"
+            },
+            {
+                "category_name": "Science",
+                "tool_name": "manatee jokes",
+                "api_name": "get by id"
+            },
+            {
+                "category_name": "Science",
+                "tool_name": "manatee jokes",
+                "api_name": "random"
+            }
+        ]
+    },
+    {
+        "query": "I'm organizing a charity event to raise funds for a local animal shelter.",
+        "newplan": " Can you provide me with quotes about kindness and compassion to include in the event program? Additionally, find a joke API that I can use to entertain the attendees during the event.",
+        "query_id": 9928,
+        "api_list": [
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Jokes by API-Ninjas",
+                "api_name": "/v1/jokes"
+            },
+            {
+                "category_name": "Education",
+                "tool_name": "Quotes",
+                "api_name": "quote"
+            },
+            {
+                "category_name": "Science",
+                "tool_name": "manatee jokes",
+                "api_name": "find all"
+            },
+            {
+                "category_name": "Science",
+                "tool_name": "manatee jokes",
+                "api_name": "get by id"
+            },
+            {
+                "category_name": "Science",
+                "tool_name": "manatee jokes",
+                "api_name": "random"
+            }
+        ]
+    },
+    {
+        "query": "I am organizing a music-themed party for my friends.",
+        "newplan": " Can you search for tracks related to a specific artist? Also, recommend some popular artists from the same genre.",
+        "query_id": 9946,
+        "api_list": [
+            {
+                "category_name": "Music",
+                "tool_name": "Spotify",
+                "api_name": "Get artists"
+            },
+            {
+                "category_name": "Music",
+                "tool_name": "Spotify",
+                "api_name": "Get radio playlist"
+            },
+            {
+                "category_name": "Music",
+                "tool_name": "Spotify",
+                "api_name": "Artist appears on"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Deezer",
+                "api_name": "Comment"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Deezer",
+                "api_name": "Genre"
+            },
+            {
+                "category_name": "Entertainment",
+                "tool_name": "Deezer",
+                "api_name": "* Search"
+            }
+        ]
+    },
+    {
+        "query": "I'm a cryptocurrency trader and I need to know the available symbols and incidents of a specific exchange.",
+        "newplan": " Can you provide me with the details of a particular exchange? Additionally, give me the global statistics of the cryptocurrency market.",
+        "query_id": 9998,
+        "api_list": [
+            {
+                "category_name": "Finance",
+                "tool_name": "Coinranking",
+                "api_name": "Get global stats"
+            },
+            {
+                "category_name": "Finance",
+                "tool_name": "Coinranking",
+                "api_name": "Get reference currencies"
+            },
+            {
+                "category_name": "Finance",
+                "tool_name": "Coinranking",
+                "api_name": "Get coin supply"
+            },
+            {
+                "category_name": "Data",
+                "tool_name": "Tardis.dev",
+                "api_name": "Exchanges"
+            },
+            {
+                "category_name": "Finance",
+                "tool_name": "Global Ethereum Price Index - GEX",
+                "api_name": "Custom Ticker"
+            },
+            {
+                "category_name": "Finance",
+                "tool_name": "Global Ethereum Price Index - GEX",
+                "api_name": "All Ticker Data"
+            },
+            {
+                "category_name": "Finance",
+                "tool_name": "Global Ethereum Price Index - GEX",
+                "api_name": "Ticker Changes"
+            }
+        ]
+    }
+]

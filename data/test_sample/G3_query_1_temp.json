@@ -1,0 +1,7 @@
+[
+    {
+        "query": "I'm planning a hiking trip in San Francisco  and I need to check the weather conditions for the next 5 days. Can you provide me with a detailed 5-day weather forecast for the hiking location? Also, I'd like to check the air quality forecast for the same period.",
+        "original_query": "I'm a financial analyst and I need to gather comprehensive data for my research. Can you fetch the list of all countries available in the World Bank | GDP API? Additionally, provide me with the IPO calendar using the Twelve Data API to analyze the market trends.",
+        "query_id": 10001
+    }
+]
